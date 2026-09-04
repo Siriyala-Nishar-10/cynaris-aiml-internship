@@ -1,66 +1,54 @@
-# W1D1 — Python for ML: NumPy Fundamentals
+# Cynaris AI/ML Internship — Siriyala Nishar
 
-## What This Does
+Daily curriculum tasks and project work for the Cynaris Solutions AI/ML
+Internship (Sep 2026 – Dec 2026).
 
-This script demonstrates core NumPy operations required for ML work:
-array creation across dimensions, broadcasting, vectorised operations,
-matrix multiplication, and descriptive statistics computed on a real
-dataset (`student_performance.csv`).
+## About
 
-## Tech Stack
+- **Intern:** Siriyala Nishar
+- **Role:** AI/ML Intern
+- **Mentor:** Owaiz Khan
+- **Duration:** 01 Sep 2026 – 01 Dec 2026
 
-- Python 3.14
-- NumPy 2.5.2
-- Pandas 3.0.5
+## Structure
 
-## Setup
-
-```bash
-python -m venv venv
-source venv/Scripts/activate      # Windows Git Bash
-pip install -r requirements.txt
-```
-
-## Run
-
-```bash
-python numpy_fundamentals.py
-```
-
-## What Each Function Does
-
-- `create_arrays()` — builds a 1D, 2D, and 3D NumPy array and prints their `.shape`.
-- `broadcasting_and_vectorised_ops(arr_2d)` — adds a smaller array to a larger
-  one using broadcasting, and squares every element with a vectorised op —
-  no explicit Python loops used.
-- `matrix_multiplication(arr_2d)` — performs real linear-algebra matrix
-  multiplication with `@`, as opposed to element-wise `*`.
-- `dataset_statistics(csv_path)` — loads the CSV with Pandas, converts
-  columns to NumPy arrays, and computes mean, standard deviation, and
-  Pearson correlation between `study_hours` and `exam_score`.
-
-## Sample Output
+Each day's task lives in its own folder (from Week 1 Day 2 onward) or at
+the repo root (Day 1), with its own README documenting what was built.
+Each day is developed on a separate branch and submitted via Pull Request.
 
 ```
-1D shape: (5,)
-2D shape: (2, 3)
-3D shape: (2, 2, 2)
-Broadcasted result:
- [[11 22 33]
- [14 25 36]]
-Matrix multiplication result:
- [[22 28]
- [49 64]]
-study_hours_mean: 5.016
-study_hours_std: 2.578
-exam_score_mean: 53.168
-exam_score_std: 19.584
-study_vs_score_correlation: 0.966
+cynaris-aiml-internship/
+├── numpy_fundamentals.py          # W1D1: NumPy Fundamentals
+├── student_performance.csv
+├── README.md                      # (this file, on main)
+│
+├── cynaris-w1d2/                  # W1D2: Pandas Data Manipulation
+│   ├── pandas_manipulation.py
+│   ├── indian_retail_orders.csv
+│   └── README_W1D2.md
+│
+└── cynaris-w1d3/                  # W1D3: Data Loading, Cleaning & Inspection
+    ├── data_cleaning.py
+    ├── customer_data_raw.csv
+    └── README_W1D3.md
 ```
 
-## Dataset
+## Branch & PR Workflow
 
-`student_performance.csv` — 50 synthetic student records (`study_hours`,
-`sleep_hours`, `exam_score`), generated to have a realistic positive
-correlation between study hours and exam performance, for demonstrating
-`np.corrcoef`.
+Each day's work is committed on its own branch
+(`feat/aiml-W1-siriyala-dN`) and submitted as a Pull Request against
+`main`, following Cynaris's Git workflow standards: descriptive commit
+messages, minimum 2 commits per task, and documented output evidence.
+
+## Progress Log
+
+| Day  | Topic                               | Status                       |
+| ---- | ----------------------------------- | ---------------------------- |
+| W1D1 | NumPy Fundamentals                  | ✅ Complete                  |
+| W1D2 | Pandas Data Manipulation            | ✅ Complete (PR raised)      |
+| W1D3 | Data Loading, Cleaning & Inspection | ✅ Complete (PR in progress) |
+
+## Note on Repo Access
+
+This is a personal repository, set up and maintained on mentor guidance
+for the duration of the internship.
