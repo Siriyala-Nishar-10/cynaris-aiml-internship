@@ -30,14 +30,24 @@ cynaris-aiml-internship/
 │   ├── customer_data_raw.csv
 │   └── README_W1D3.md
 │
-└── cynaris-w1d4/                  # W1D4: Exploratory Data Analysis (EDA)
-    ├── eda_analysis.py
+├── cynaris-w1d4/                  # W1D4: Exploratory Data Analysis (EDA)
+│   ├── eda_analysis.py
+│   ├── employee_dataset.csv
+│   ├── EDA_NARRATIVE.md
+│   ├── README_W1D4.md
+│   ├── distributions.png
+│   ├── correlation_heatmap.png
+│   └── top_categories.png
+│
+└── cynaris-w1d5/                  # W1D5: Data Visualisation — Matplotlib & Seaborn
+    ├── data_visualisation.py
     ├── employee_dataset.csv
-    ├── EDA_NARRATIVE.md
-    ├── README_W1D4.md
-    ├── distributions.png
-    ├── correlation_heatmap.png
-    └── top_categories.png
+    ├── README_W1D5.md
+    ├── salary_by_department_boxplot.png
+    ├── experience_vs_salary_scatter.png
+    ├── satisfaction_violin.png
+    ├── avg_salary_by_city_bar.png
+    └── pairplot.png
 ```
 
 ## Branch & PR Workflow
@@ -47,12 +57,13 @@ Each day's work is committed on its own branch
 messages, minimum 2 commits per task, and documented output evidence.
 
 ## Progress Log
-| Day  | Topic                               | Status              |
-| ---- | ------------------------------------ | ------------------- |
-| W1D1 | NumPy Fundamentals                   | ✅ Complete          |
-| W1D2 | Pandas Data Manipulation             | ✅ Complete (PR raised) |
-| W1D3 | Data Loading, Cleaning & Inspection  | ✅ Complete (PR raised) |
-| W1D4 | Exploratory Data Analysis (EDA)      | ✅ Complete (PR raised) |
+| Day  | Topic                                | Status                  |
+| ---- | ------------------------------------- | ------------------------ |
+| W1D1 | NumPy Fundamentals                    | ✅ Complete              |
+| W1D2 | Pandas Data Manipulation              | ✅ Complete (PR raised)  |
+| W1D3 | Data Loading, Cleaning & Inspection   | ✅ Complete (PR raised)  |
+| W1D4 | Exploratory Data Analysis (EDA)       | ✅ Complete (PR raised)  |
+| W1D5 | Data Visualisation — Matplotlib & Seaborn | ✅ Complete (PR raised) |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
