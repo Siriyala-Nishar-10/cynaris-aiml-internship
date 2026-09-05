@@ -50,10 +50,5 @@ noted explicitly in code rather than silently dropped.
 - `avg_salary_by_city_bar.png`
 - `pairplot.png`
 
-## AI Usage Note
-Built with AI assistance (Claude) for chart type selection and code
-structure. Reviewed and tested locally — verified each plot renders
-correctly and matches the reasoning documented above.
-
 ## Author
 Siriyala Nishar
