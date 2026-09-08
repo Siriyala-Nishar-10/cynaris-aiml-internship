@@ -1,20 +1,16 @@
-# Cynaris AI/ML Internship — Siriyala Nishar
+Cynaris AI/ML Internship — Siriyala Nishar
 
-Daily curriculum tasks and project work for the Cynaris Solutions AI/ML
-Internship (Sep 2026 – Dec 2026).
+Daily curriculum tasks and project work for the Cynaris Solutions AI/ML Internship (Sep 2026 – Dec 2026).
 
-## About
-- **Intern:** Siriyala Nishar
-- **Role:** AI/ML Intern
-- **Mentor:** Owaiz Khan
-- **Duration:** 01 Sep 2026 – 01 Dec 2026
+About
+Intern: Siriyala Nishar
+Role: AI/ML Intern
+Mentor: Owaiz Khan
+Duration: 01 Sep 2026 – 01 Dec 2026
+Structure
 
-## Structure
-Each day's task lives in its own folder (from Week 1 Day 2 onward) or at
-the repo root (Day 1), with its own README documenting what was built.
-Each day is developed on a separate branch and submitted via Pull Request.
+Each day's task lives in its own folder (from Week 1 Day 2 onward) or at the repo root (Day 1), with its own README documenting what was built. Each day is developed on a separate branch and submitted via Pull Request.
 
-```
 cynaris-aiml-internship/
 ├── numpy_fundamentals.py          # W1D1: NumPy Fundamentals
 ├── student_performance.csv
@@ -39,32 +35,39 @@ cynaris-aiml-internship/
 │   ├── correlation_heatmap.png
 │   └── top_categories.png
 │
-└── cynaris-w1d5/                  # W1D5: Data Visualisation — Matplotlib & Seaborn
-    ├── data_visualisation.py
-    ├── employee_dataset.csv
-    ├── README_W1D5.md
-    ├── salary_by_department_boxplot.png
-    ├── experience_vs_salary_scatter.png
-    ├── satisfaction_violin.png
-    ├── avg_salary_by_city_bar.png
-    └── pairplot.png
-```
+├── cynaris-w1d5/                  # W1D5: Data Visualisation — Matplotlib & Seaborn
+│   ├── data_visualisation.py
+│   ├── employee_dataset.csv
+│   ├── README_W1D5.md
+│   ├── salary_by_department_boxplot.png
+│   ├── experience_vs_salary_scatter.png
+│   ├── satisfaction_violin.png
+│   ├── avg_salary_by_city_bar.png
+│   └── pairplot.png
+│
+├── cynaris-w2d1/                  # W2D1: Feature Engineering & Encoding
+│   ├── feature_engineering.py
+│   ├── loan_applicants.csv
+│   ├── README_W2D1.md
+│   └── scaling_comparison.png
+│
+└── cynaris-w2d2/                  # W2D2: Missing Data Handling
+    ├── missing_data_handling.py
+    ├── employee_missing_data.csv
+    └── README_W2D2.md
+Branch & PR Workflow
 
-## Branch & PR Workflow
-Each day's work is committed on its own branch
-(`feat/aiml-W1-siriyala-dN`) and submitted as a Pull Request against
-`main`, following Cynaris's Git workflow standards: descriptive commit
-messages, minimum 2 commits per task, and documented output evidence.
+Each day's work is committed on its own branch (feat/aiml-W{week}-siriyala-d{day}) and submitted as a Pull Request against main, following Cynaris's Git workflow standards: descriptive commit messages, minimum 2 commits per task, and documented output evidence.
 
-## Progress Log
-| Day  | Topic                                | Status                  |
-| ---- | ------------------------------------- | ------------------------ |
-| W1D1 | NumPy Fundamentals                    | ✅ Complete              |
-| W1D2 | Pandas Data Manipulation              | ✅ Complete (PR raised)  |
-| W1D3 | Data Loading, Cleaning & Inspection   | ✅ Complete (PR raised)  |
-| W1D4 | Exploratory Data Analysis (EDA)       | ✅ Complete (PR raised)  |
-| W1D5 | Data Visualisation — Matplotlib & Seaborn | ✅ Complete (PR raised) |
+Progress Log
+Week	Day	Topic	Status
+1	D1	NumPy Fundamentals	✅ Complete
+1	D2	Pandas Data Manipulation	✅ Complete (PR raised)
+1	D3	Data Loading, Cleaning & Inspection	✅ Complete (PR raised)
+1	D4	Exploratory Data Analysis (EDA)	✅ Complete (PR raised)
+1	D5	Data Visualisation — Matplotlib & Seaborn	✅ Complete (PR raised)
+2	D1	Feature Engineering & Encoding	✅ Complete (PR raised)
+2	D2	Missing Data Handling	✅ Complete (PR raised)
+Note on Repo Access
 
-## Note on Repo Access
-This is a personal repository, set up and maintained on mentor guidance
-for the duration of the internship.
+This is a personal repository, set up and maintained on mentor guidance for the duration of the internship.
