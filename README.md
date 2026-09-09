@@ -60,7 +60,7 @@ cynaris-aiml-internship/
 |   ├── employee_missing_data.csv
 |   └── README_W2D2.md
 |
-├── cynaris-w2d3/
+├── cynaris-w2d3/                  # W2D3: Handling Imbalanced Data — SMOTE
     ├── smote_imbalanced.py
     ├── transaction_fraud.csv
     ├── smote_comparison.png
