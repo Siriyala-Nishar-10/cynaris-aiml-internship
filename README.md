@@ -55,10 +55,16 @@ cynaris-aiml-internship/
 │   ├── README_W2D1.md
 │   └── scaling_comparison.png
 │
-└── cynaris-w2d2/                  # W2D2: Missing Data Handling
-    ├── missing_data_handling.py
-    ├── employee_missing_data.csv
-    └── README_W2D2.md
+├── cynaris-w2d2/                  # W2D2: Missing Data Handling
+|   ├── missing_data_handling.py
+|   ├── employee_missing_data.csv
+|   └── README_W2D2.md
+|
+├── cynaris-w2d3/
+    ├── smote_imbalanced.py
+    ├── transaction_fraud.csv
+    ├── smote_comparison.png
+    └── README_W2D3.md
 ```
 
 ## Branch & PR Workflow
@@ -77,6 +83,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 1    | D5  | Data Visualisation — Matplotlib & Seaborn     | ✅ Complete (PR raised)  |
 | 2    | D1  | Feature Engineering & Encoding                | ✅ Complete (PR raised)  |
 | 2    | D2  | Missing Data Handling                         | ✅ Complete (PR raised)  |
+| 2    | D3  | Handling Imbalanced Data — SMOTE              | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
