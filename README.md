@@ -61,10 +61,14 @@ cynaris-aiml-internship/
 |   └── README_W2D2.md
 |
 ├── cynaris-w2d3/                  # W2D3: Handling Imbalanced Data — SMOTE
-    ├── smote_imbalanced.py
-    ├── transaction_fraud.csv
-    ├── smote_comparison.png
-    └── README_W2D3.md
+|   ├── smote_imbalanced.py
+|   ├── transaction_fraud.csv
+|   ├── smote_comparison.png
+|   └── README_W2D3.md
+|
+└── cynaris-w2d3/                 # W2D4: Train/Test Split & Cross-Validation
+    ├── w2d4_scaling_cv.py
+    └── README_W2D4.md
 ```
 
 ## Branch & PR Workflow
@@ -84,6 +88,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 2    | D1  | Feature Engineering & Encoding                | ✅ Complete (PR raised)  |
 | 2    | D2  | Missing Data Handling                         | ✅ Complete (PR raised)  |
 | 2    | D3  | Handling Imbalanced Data — SMOTE              | ✅ Complete (PR raised)  |
+| 2    | D4  | Train/Test Split & Cross-Validation           | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
