@@ -70,12 +70,20 @@ cynaris-aiml-internship/
 |   ├── w2d4_scaling_cv.py
 |   └── README_W2D4.md
 |
-└── cynaris-w2d5/                 # W2D5: Week 2 Project — End-to-End Preprocessing Pipeline
-    ├── week2_pipeline.py
-    ├── titanic_like.csv
-    ├── titanic_train_ml_ready.csv
-    ├── eda_survival_rates.png
-    └── README_W2D5.md
+├── cynaris-w2d5/                 # W2D5: Week 2 Project — End-to-End Preprocessing Pipeline
+|   ├── week2_pipeline.py
+|   ├── titanic_like.csv
+|   ├── titanic_train_ml_ready.csv
+|   ├── eda_survival_rates.png
+|   └── README_W2D5.md
+|
+└── cynaris-w3d1/                  # W3D1: Linear Regression — Scikit-Learn
+    ├── linear_regression.py
+    ├── house_prices.csv
+    ├── README_W3D1.md
+    ├── predicted_vs_actual.png
+    ├── residuals.png
+    └── model_comparison.csv
 ```
 
 ## Branch & PR Workflow
@@ -97,6 +105,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 2    | D3  | Handling Imbalanced Data — SMOTE              | ✅ Complete (PR raised)  |
 | 2    | D4  | Train/Test Split & Cross-Validation           | ✅ Complete (PR raised)  |
 | 2    | D5  | Week 2 Project — End-to-End Preprocessing Pipeline | ✅ Complete (PR raised)  |
+| 3    | D1  | Linear Regression — Scikit-Learn              | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
