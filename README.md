@@ -85,12 +85,19 @@ cynaris-aiml-internship/
 |   ├── residuals.png
 |   └── model_comparison.csv
 |
-└── cynaris-w3d2/                  # W3D2: Logistic Regression & Classification
-    ├── w3d2_logistic_regression.py
-    ├── README_W3D2.md
-    ├── sigmoid_function.png
-    ├── roc_curve.png
-    └── decision_boundary.png
+├── cynaris-w3d2/                  # W3D2: Logistic Regression & Classification
+|   ├── w3d2_logistic_regression.py
+|   ├── README_W3D2.md
+|   ├── sigmoid_function.png
+|   ├── roc_curve.png
+|   └── decision_boundary.png
+|
+└── cynaris-w3d3/                  # W3D3: Decision Trees & Random Forests
+    ├── w3d3_decision_trees.py
+    ├── README_W3D3.md
+    ├── decision_tree_visualization.png
+    ├── tree_feature_importance.png
+    └── rf_feature_importance.png
 ```
 
 ## Branch & PR Workflow
@@ -114,6 +121,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 2    | D5  | Week 2 Project — End-to-End Preprocessing Pipeline | ✅ Complete (PR raised)  |
 | 3    | D1  | Linear Regression — Scikit-Learn              | ✅ Complete (PR raised)  |
 | 3    | D2  | Logistic Regression & Classification          | ✅ Complete (PR raised)  |
+| 3    | D3  | Decision Trees & Random Forests               | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
