@@ -92,12 +92,18 @@ cynaris-aiml-internship/
 |   ├── roc_curve.png
 |   └── decision_boundary.png
 |
-└── cynaris-w3d3/                  # W3D3: Decision Trees & Random Forests
-    ├── w3d3_decision_trees.py
-    ├── README_W3D3.md
-    ├── decision_tree_visualization.png
-    ├── tree_feature_importance.png
-    └── rf_feature_importance.png
+├── cynaris-w3d3/                  # W3D3: Decision Trees & Random Forests
+|   ├── decision_trees.py
+|   ├── README_W3D3.md
+|   ├── decision_tree_visualization.png
+|   ├── tree_feature_importance.png
+|   └── rf_feature_importance.png
+|
+└── cynaris-w3d4/                  # W3D4: SVM & KNN — When to Use What
+    ├── svm_knn.py
+    ├── README_W3D4.md
+    ├── svm_kernel_comparison.png
+    └── svm_vs_knn_boundaries.png
 ```
 
 ## Branch & PR Workflow
@@ -122,6 +128,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 3    | D1  | Linear Regression — Scikit-Learn              | ✅ Complete (PR raised)  |
 | 3    | D2  | Logistic Regression & Classification          | ✅ Complete (PR raised)  |
 | 3    | D3  | Decision Trees & Random Forests               | ✅ Complete (PR raised)  |
+| 3    | D4  | SVM & KNN — When to Use What                  | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
