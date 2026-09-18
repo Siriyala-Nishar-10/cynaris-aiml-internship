@@ -99,11 +99,16 @@ cynaris-aiml-internship/
 |   ├── tree_feature_importance.png
 |   └── rf_feature_importance.png
 |
-└── cynaris-w3d4/                  # W3D4: SVM & KNN — When to Use What
-    ├── svm_knn.py
-    ├── README_W3D4.md
-    ├── svm_kernel_comparison.png
-    └── svm_vs_knn_boundaries.png
+├── cynaris-w3d4/                  # W3D4: SVM & KNN — When to Use What
+|   ├── svm_knn.py
+|   ├── README_W3D4.md
+|   ├── svm_kernel_comparison.png
+|   └── svm_vs_knn_boundaries.png
+|
+└── cynaris-w3d5/                  # W3D5: Hyperparameter Tuning — GridSearch & RandomSearch
+    ├── w3d5_hyperparameter_tuning.py
+    ├── README_W3D5.md
+    └── search_progress_comparison.png
 ```
 
 ## Branch & PR Workflow
@@ -129,6 +134,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 3    | D2  | Logistic Regression & Classification          | ✅ Complete (PR raised)  |
 | 3    | D3  | Decision Trees & Random Forests               | ✅ Complete (PR raised)  |
 | 3    | D4  | SVM & KNN — When to Use What                  | ✅ Complete (PR raised)  |
+| 3    | D5  | Hyperparameter Tuning — GridSearch & RandomSearch | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
