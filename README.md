@@ -105,10 +105,15 @@ cynaris-aiml-internship/
 |   ├── svm_kernel_comparison.png
 |   └── svm_vs_knn_boundaries.png
 |
-└── cynaris-w3d5/                  # W3D5: Hyperparameter Tuning — GridSearch & RandomSearch
-    ├── w3d5_hyperparameter_tuning.py
-    ├── README_W3D5.md
-    └── search_progress_comparison.png
+├── cynaris-w3d5/                  # W3D5: Hyperparameter Tuning — GridSearch & RandomSearch
+|   ├── w3d5_hyperparameter_tuning.py
+|   ├── README_W3D5.md
+|   └── search_progress_comparison.png
+|
+└── cynaris-w4d1/                  # W4D1: Model Evaluation — K-Fold/Stratified CV, Learning Curves
+    ├── cv_learning_curves.py
+    ├── README_W4D1.md
+    └── learning_curves.png
 ```
 
 ## Branch & PR Workflow
@@ -135,6 +140,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 3    | D3  | Decision Trees & Random Forests               | ✅ Complete (PR raised)  |
 | 3    | D4  | SVM & KNN — When to Use What                  | ✅ Complete (PR raised)  |
 | 3    | D5  | Hyperparameter Tuning — GridSearch & RandomSearch | ✅ Complete (PR raised)  |
+| 4    | D1  | Model Evaluation — K-Fold/Stratified CV, Learning Curves | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
