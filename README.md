@@ -110,10 +110,18 @@ cynaris-aiml-internship/
 |   ├── README_W3D5.md
 |   └── search_progress_comparison.png
 |
-└── cynaris-w4d1/                  # W4D1: Model Evaluation — K-Fold/Stratified CV, Learning Curves
-    ├── cv_learning_curves.py
-    ├── README_W4D1.md
-    └── learning_curves.png
+├── cynaris-w4d1/                  # W4D1: Model Evaluation — K-Fold/Stratified CV, Learning Curves
+|   ├── cv_learning_curves.py
+|   ├── README_W4D1.md
+|   └── learning_curves.png
+|
+└── cynaris-w4d2/                  # W4D2: Bias-Variance Tradeoff & Regularisation
+    ├── bias_variance_regularization.py 
+    ├── README_W4D2.md
+    ├── ridge_alpha_sweep.png
+    ├── underfit_good_overfit_examples.png
+    ├── l1_vs_l2_coefficients.png
+    └── bias_variance_curve.png
 ```
 
 ## Branch & PR Workflow
@@ -141,6 +149,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 3    | D4  | SVM & KNN — When to Use What                  | ✅ Complete (PR raised)  |
 | 3    | D5  | Hyperparameter Tuning — GridSearch & RandomSearch | ✅ Complete (PR raised)  |
 | 4    | D1  | Model Evaluation — K-Fold/Stratified CV, Learning Curves | ✅ Complete (PR raised)  |
+|4     | D2  | Bias-Variance Tradeoff & Regularisation |✅ Complete (PR raised) |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
