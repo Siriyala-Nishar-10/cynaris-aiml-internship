@@ -115,13 +115,20 @@ cynaris-aiml-internship/
 |   ├── README_W4D1.md
 |   └── learning_curves.png
 |
-└── cynaris-w4d2/                  # W4D2: Bias-Variance Tradeoff & Regularisation
-    ├── bias_variance_regularization.py 
-    ├── README_W4D2.md
-    ├── ridge_alpha_sweep.png
-    ├── underfit_good_overfit_examples.png
-    ├── l1_vs_l2_coefficients.png
-    └── bias_variance_curve.png
+├── cynaris-w4d2/                  # W4D2: Bias-Variance Tradeoff & Regularisation
+|   ├── bias_variance_regularization.py 
+|   ├── README_W4D2.md
+|   ├── ridge_alpha_sweep.png
+|   ├── underfit_good_overfit_examples.png
+|   ├── l1_vs_l2_coefficients.png
+|   └── bias_variance_curve.png
+|
+└── cynaris-w4d3/                  # W4D3: Model Serialisation — joblib & pickle
+    ├── model_serialisation.py
+    ├── loan_evaluation.csv
+    ├── loan_model.joblib
+    ├── loan_model.pkl
+    └── README_W4D3.md
 ```
 
 ## Branch & PR Workflow
@@ -150,6 +157,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 3    | D5  | Hyperparameter Tuning — GridSearch & RandomSearch | ✅ Complete (PR raised)  |
 | 4    | D1  | Model Evaluation — K-Fold/Stratified CV, Learning Curves | ✅ Complete (PR raised)  |
 |4     | D2  | Bias-Variance Tradeoff & Regularisation |✅ Complete (PR raised) |
+| 4    | D3  | Model Serialisation — joblib & pickle        | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
