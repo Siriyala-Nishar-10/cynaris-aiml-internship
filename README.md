@@ -130,19 +130,25 @@ cynaris-aiml-internship/
 |   ├── loan_model.pkl
 |   └── README_W4D3.md
 |
-└── cynaris-w4d4/                  # W4D4: FastAPI Model Serving Endpoint
-    ├── train_model.py
-    ├── main.py
-    ├── schemas.py
-    ├── requirements.txt
-    ├── model/
-    │   ├── model.joblib
-    │   ├── scaler.joblib
-    │   └── metadata.json
-    ├── tests/
-    │   ├── check_predict_logic.py
-    │   └── test_api.py
-    └── README.md
+├── cynaris-w4d4/                  # W4D4: FastAPI Model Serving Endpoint
+|   ├── train_model.py
+|   ├── main.py
+|   ├── schemas.py
+|   ├── requirements.txt
+|   ├── model/
+|   │   └── metadata.json
+|   ├── tests/
+|   │   ├── check_predict_logic.py
+|   │   └── test_api.py
+|   └── README.md
+|
+└── cynaris-w4d5/                  # W4D5: 1M Capstone — Sentiment Classifier
+    ├── sentiment_classifier.py
+    ├── confusion_matrices.png
+    ├── roc_curve_comparison.png
+    ├── model_comparison.csv
+    ├── results_summary.json
+    └── README_W4D5.md
 ```
 
 ## Branch & PR Workflow
@@ -173,6 +179,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 |4     | D2  | Bias-Variance Tradeoff & Regularisation |✅ Complete (PR raised) |
 | 4    | D3  | Model Serialisation — joblib & pickle        | ✅ Complete (PR raised)  |
 | 4    | D4  | FastAPI Model Serving Endpoint                | ✅ Complete (PR raised)  |
+| 4    | D5  | 1M Capstone: Sentiment Classifier — Deploy & Document | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
