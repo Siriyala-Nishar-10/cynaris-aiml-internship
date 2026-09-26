@@ -142,13 +142,20 @@ cynaris-aiml-internship/
 |   │   └── test_api.py
 |   └── README.md
 |
-└── cynaris-w4d5/                  # W4D5: 1M Capstone — Sentiment Classifier
-    ├── sentiment_classifier.py
-    ├── confusion_matrices.png
-    ├── roc_curve_comparison.png
-    ├── model_comparison.csv
-    ├── results_summary.json
-    └── README_W4D5.md
+├── cynaris-w4d5/                  # W4D5: 1M Capstone — Sentiment Classifier
+|   ├── sentiment_classifier.py
+|   ├── confusion_matrices.png
+|   ├── roc_curve_comparison.png
+|   ├── model_comparison.csv
+|   ├── results_summary.json
+|   └── README_W4D5.md
+|
+└── cynaris-w4d6/                  # W4D6: Responsible AI — Bias, Fairness & Transparency
+    ├── real_aif360_shap.py
+    ├── model_card.pdf
+    ├── india_bias_case_analysis.txt
+    └── README_w4d6.md
+
 ```
 
 ## Branch & PR Workflow
@@ -180,6 +187,8 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 4    | D3  | Model Serialisation — joblib & pickle        | ✅ Complete (PR raised)  |
 | 4    | D4  | FastAPI Model Serving Endpoint                | ✅ Complete (PR raised)  |
 | 4    | D5  | 1M Capstone: Sentiment Classifier — Deploy & Document | ✅ Complete (PR raised)  |
+| 4    | D6  | Responsible AI — Bias, Fairness & Transparency | ✅ Complete (PR raised)  |
+
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
