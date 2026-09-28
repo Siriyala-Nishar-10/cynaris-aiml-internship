@@ -151,10 +151,22 @@ cynaris-aiml-internship/
 |   └── README_W4D5.md
 |
 └── cynaris-w4d6/                  # W4D6: Responsible AI — Bias, Fairness & Transparency
-    ├── real_aif360_shap.py
-    ├── model_card.pdf
-    ├── india_bias_case_analysis.txt
-    └── README_w4d6.md
+|   ├── real_aif360_shap.py
+|   ├── model_card.pdf
+|   ├── india_bias_case_analysis.txt
+|   └── README_w4d6.md
+|
+└── cynaris-w5d1/                  # W5D1: Running LLMs Locally with Ollama — Setup & First Run
+    ├── ollama_client.py
+    ├── run_prompts.py
+    ├── compare_models.py
+    ├── test_ollama_client.py
+    ├── requirements.txt
+    ├── run_prompts_results.json
+    ├── comparison_results.json
+    ├── comparison_report.md
+    ├── screenshots/
+    └── README_W5D1.md
 
 ```
 
@@ -188,6 +200,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 4    | D4  | FastAPI Model Serving Endpoint                | ✅ Complete (PR raised)  |
 | 4    | D5  | 1M Capstone: Sentiment Classifier — Deploy & Document | ✅ Complete (PR raised)  |
 | 4    | D6  | Responsible AI — Bias, Fairness & Transparency | ✅ Complete (PR raised)  |
+| 5    | D1  | Running LLMs Locally with Ollama — Setup & First Run | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
