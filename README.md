@@ -156,17 +156,30 @@ cynaris-aiml-internship/
 |   ├── india_bias_case_analysis.txt
 |   └── README_w4d6.md
 |
-└── cynaris-w5d1/                  # W5D1: Running LLMs Locally with Ollama — Setup & First Run
+├── cynaris-w5d1/                  # W5D1: Running LLMs Locally with Ollama — Setup & First Run
+|   ├── ollama_client.py
+|   ├── run_prompts.py
+|   ├── compare_models.py
+|   ├── test_ollama_client.py
+|   ├── requirements.txt
+|   ├── run_prompts_results.json
+|   ├── comparison_results.json
+|   ├── comparison_report.md
+|   ├── screenshots/
+|   └── README_W5D1.md
+|
+└── cynaris-w5d2/                  # W5D2: Prompt Engineering & System Prompts with Ollama
     ├── ollama_client.py
-    ├── run_prompts.py
-    ├── compare_models.py
-    ├── test_ollama_client.py
+    ├── prompt_templates.py
+    ├── prompting_techniques.py
+    ├── system_prompt_experiment.py
+    ├── test_prompt_engineering.py
     ├── requirements.txt
-    ├── run_prompts_results.json
-    ├── comparison_results.json
-    ├── comparison_report.md
-    ├── screenshots/
-    └── README_W5D1.md
+    ├── README_W5D2.md
+    ├── prompting_technique_results.json
+    ├── system_prompt_results.json
+    ├── test_pt_results.json
+    └── test_sp_results.json
 
 ```
 
@@ -201,6 +214,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 4    | D5  | 1M Capstone: Sentiment Classifier — Deploy & Document | ✅ Complete (PR raised)  |
 | 4    | D6  | Responsible AI — Bias, Fairness & Transparency | ✅ Complete (PR raised)  |
 | 5    | D1  | Running LLMs Locally with Ollama — Setup & First Run | ✅ Complete (PR raised)  |
+| 5    | D2  | Prompt Engineering & System Prompts with Ollama | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
