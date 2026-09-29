@@ -1,0 +1,28 @@
+{
+  "model": "llama3.2:3b",
+  "target_text": "Oh great, my flight got delayed for the third time. Love this airline.",
+  "true_label": "NEGATIVE",
+  "results": [
+    {
+      "technique": "zero_shot",
+      "prompt": "Classify the sentiment of this text as POSITIVE or NEGATIVE:\n\"Oh great, my flight got delayed for the third time. Love this airline.\"\nAnswer with one word.",
+      "response": "NEGATIVE",
+      "predicted_label": "NEGATIVE",
+      "correct": true
+    },
+    {
+      "technique": "few_shot",
+      "prompt": "Classify the sentiment of each text as POSITIVE or NEGATIVE. Watch out for sarcasm.\n\nText: \"This phone's battery dies in 2 hours. Fantastic job, really.\"\nSentiment: NEGATIVE\n\nText: \"The staff were kind and the room was spotless.\"\nSentiment: POSITIVE\n\nText: \"Sure, take my money and give me a broken product. Perfect.\"\nSentiment: NEGATIVE\n\nText: \"Oh great, my flight got delayed for the third time. Love this airline.\"\nSentiment:",
+      "response": "NEGATIVE\n\nThe text expresses frustration and disappointment with the airline's performance, using a sarcastic tone to express dissatisfaction.",
+      "predicted_label": "NEGATIVE",
+      "correct": true
+    },
+    {
+      "technique": "chain_of_thought",
+      "prompt": "Classify the sentiment of this text as POSITIVE or NEGATIVE:\n\"Oh great, my flight got delayed for the third time. Love this airline.\"\nAnswer with one word.\nLet's think step by step.",
+      "response": "NEGATIVE",
+      "predicted_label": "NEGATIVE",
+      "correct": true
+    }
+  ]
+}
