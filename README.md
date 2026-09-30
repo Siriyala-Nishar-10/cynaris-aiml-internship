@@ -168,18 +168,27 @@ cynaris-aiml-internship/
 |   ├── screenshots/
 |   └── README_W5D1.md
 |
-└── cynaris-w5d2/                  # W5D2: Prompt Engineering & System Prompts with Ollama
-    ├── ollama_client.py
-    ├── prompt_templates.py
-    ├── prompting_techniques.py
-    ├── system_prompt_experiment.py
-    ├── test_prompt_engineering.py
-    ├── requirements.txt
-    ├── README_W5D2.md
-    ├── prompting_technique_results.json
-    ├── system_prompt_results.json
-    ├── test_pt_results.json
-    └── test_sp_results.json
+├── cynaris-w5d2/                  # W5D2: Prompt Engineering & System Prompts with Ollama
+|   ├── ollama_client.py
+|   ├── prompt_templates.py
+|   ├── prompting_techniques.py
+|   ├── system_prompt_experiment.py
+|   ├── test_prompt_engineering.py
+|   ├── requirements.txt
+|   ├── README_W5D2.md
+|   ├── prompting_technique_results.json
+|   ├── system_prompt_results.json
+|   ├── test_pt_results.json
+|   └── test_sp_results.json
+|
+└── cynaris-w5d3/                  # W5D3: RAG with Document Ingestion & ChromaDB
+    ├── ingest_docs.py
+    ├── pdf_rag.py
+    ├── sample.pdf
+    ├── chroma_db/
+    ├── .venv/
+    ├── .gitignore
+    └── README_W5D3.md
 
 ```
 
@@ -215,6 +224,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 4    | D6  | Responsible AI — Bias, Fairness & Transparency | ✅ Complete (PR raised)  |
 | 5    | D1  | Running LLMs Locally with Ollama — Setup & First Run | ✅ Complete (PR raised)  |
 | 5    | D2  | Prompt Engineering & System Prompts with Ollama | ✅ Complete (PR raised)  |
+| 5    | D3  | RAG with Document Ingestion & ChromaDB      |   ✅ Complete (PR raised)   |
 
 
 ## Note on Repo Access
