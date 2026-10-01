@@ -181,14 +181,20 @@ cynaris-aiml-internship/
 |   ├── test_pt_results.json
 |   └── test_sp_results.json
 |
-└── cynaris-w5d3/                  # W5D3: RAG with Document Ingestion & ChromaDB
+├── cynaris-w5d3/                  # W5D3: RAG with Document Ingestion & ChromaDB
+│   ├── ingest_docs.py
+│   ├── pdf_rag.py
+│   ├── sample.pdf
+│   ├── .gitignore
+│   └── README_W5D3.md
+│
+└── cynaris-w5d4/                  # W5D4: Semantic Search with ChromaDB
     ├── ingest_docs.py
     ├── pdf_rag.py
-    ├── sample.pdf
-    ├── chroma_db/
-    ├── .venv/
+    ├── semantic_search.py
     ├── .gitignore
-    └── README_W5D3.md
+    ├── evidence/
+    └── README_W5D4.md
 
 ```
 
@@ -225,6 +231,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 5    | D1  | Running LLMs Locally with Ollama — Setup & First Run | ✅ Complete (PR raised)  |
 | 5    | D2  | Prompt Engineering & System Prompts with Ollama | ✅ Complete (PR raised)  |
 | 5    | D3  | RAG with Document Ingestion & ChromaDB      |   ✅ Complete (PR raised)   |
+| 5    | D4  | Semantic Search with ChromaDB               | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
