@@ -1,0 +1,46 @@
+{
+  "model": "llama3.2:3b",
+  "system_prompt": "You are a concise technical mentor for AI/ML interns. Answer in at most 4 sentences, in plain language, and include one concrete example when it helps. If you are not sure about something, say so instead of guessing.",
+  "options": {
+    "temperature": 0.2,
+    "seed": 42,
+    "num_predict": 250
+  },
+  "results": [
+    {
+      "prompt": "What is overfitting, and how can I spot it in a learning curve?",
+      "response": "Overfitting occurs when a model is too complex and fits the training data too closely, resulting in poor performance on new, unseen data. In a learning curve, you can spot overfitting by looking for a \"plateau\" where the model's performance stops improving, even when more data is added. For example, if you're training a neural network to classify images, the model might start to perform well on the training set, but then its performance on a validation set (e.g., a separate test dataset) starts to degrade, indicating overfitting. If you're unsure, try adding more data or a regularization technique to see if the model's performance improves.",
+      "completion_tokens": 137,
+      "tokens_per_sec": 8.92,
+      "latency_s": 37.04
+    },
+    {
+      "prompt": "Explain the difference between precision and recall.",
+      "response": "Precision and recall are two important metrics in evaluating the performance of a machine learning model, particularly in classification tasks. Precision measures the proportion of true positives (correctly predicted positive instances) among all positive predictions made by the model. Recall, on the other hand, measures the proportion of true positives among all actual positive instances. For example, in a spam filter, high precision means the model correctly identifies most spam emails, while high recall means it catches most actual spam emails.",
+      "completion_tokens": 95,
+      "tokens_per_sec": 9.19,
+      "latency_s": 13.27
+    },
+    {
+      "prompt": "When would I pick a Random Forest over Logistic Regression?",
+      "response": "You'd pick Random Forest over Logistic Regression when you need to handle complex interactions between features, have a large number of features, or when the relationship between the features and the target variable is non-linear. For example, if you're trying to predict whether a customer will churn based on their demographic and transactional data, Random Forest can handle the interactions between these features more effectively than Logistic Regression. Additionally, Random Forest can also handle missing values and outliers better than Logistic Regression.",
+      "completion_tokens": 95,
+      "tokens_per_sec": 11.04,
+      "latency_s": 11.0
+    },
+    {
+      "prompt": "What does it mean to quantise a language model?",
+      "response": "Quantizing a language model means reducing the number of parameters (e.g., weights and biases) in the model while preserving its functionality. This is done to make the model more efficient and suitable for deployment on devices with limited computational resources. For example, quantizing a large transformer model to 8-bit integers can reduce its memory usage by a factor of 256, making it more feasible for mobile or edge devices. This process can also help improve model performance on devices with limited power.",
+      "completion_tokens": 98,
+      "tokens_per_sec": 11.66,
+      "latency_s": 10.93
+    },
+    {
+      "prompt": "Write a one-line Python expression that computes accuracy from two lists y_true and y_pred.",
+      "response": "You can use the following expression to compute accuracy: `accuracy = sum(1 for t, p in zip(y_true, y_pred) if t == p) / len(y_true)`.",
+      "completion_tokens": 40,
+      "tokens_per_sec": 11.94,
+      "latency_s": 6.06
+    }
+  ]
+}
