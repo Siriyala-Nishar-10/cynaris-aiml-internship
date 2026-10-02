@@ -4,10 +4,10 @@ Same retrieved context and system prompt for both models (min_sim=0).
 
 ## Q: What is the main topic of this document?
 
-| Model | Seconds | Tokens | Tokens/s |
-|---|---|---|---|
-| llama3.2:3b | 8.51 | 34 | 4.0 |
-| qwen2.5:3b | 44.9 | 46 | 1.0 |
+| Model       | Seconds | Tokens | Tokens/s |
+| ----------- | ------- | ------ | -------- |
+| llama3.2:3b | 8.51    | 34     | 4.0      |
+| qwen2.5:3b  | 44.9    | 46     | 1.0      |
 
 **llama3.2:3b**
 
@@ -19,10 +19,10 @@ Same retrieved context and system prompt for both models (min_sim=0).
 
 ## Q: What language is the data in, and what are the two phases of the research?
 
-| Model | Seconds | Tokens | Tokens/s |
-|---|---|---|---|
-| llama3.2:3b | 28.82 | 45 | 1.6 |
-| qwen2.5:3b | 22.63 | 36 | 1.6 |
+| Model       | Seconds | Tokens | Tokens/s |
+| ----------- | ------- | ------ | -------- |
+| llama3.2:3b | 28.82   | 45     | 1.6      |
+| qwen2.5:3b  | 22.63   | 36     | 1.6      |
 
 **llama3.2:3b**
 
@@ -34,10 +34,10 @@ Same retrieved context and system prompt for both models (min_sim=0).
 
 ## Q: Who won the 2010 FIFA World Cup?
 
-| Model | Seconds | Tokens | Tokens/s |
-|---|---|---|---|
-| llama3.2:3b | 18.71 | 42 | 2.2 |
-| qwen2.5:3b | 15.48 | 10 | 0.6 |
+| Model       | Seconds | Tokens | Tokens/s |
+| ----------- | ------- | ------ | -------- |
+| llama3.2:3b | 18.71   | 42     | 2.2      |
+| qwen2.5:3b  | 15.48   | 10     | 0.6      |
 
 **llama3.2:3b**
 
@@ -46,21 +46,3 @@ Same retrieved context and system prompt for both models (min_sim=0).
 **qwen2.5:3b**
 
 > I don't know based on the documents.
-
-## Manual rating (fill in after checking against the PDF)
-
-| Question | Model | Correct? (1-5) | Grounded in context? (1-5) | Concise? (1-5) |
-|---|---|---|---|---|
-| Q1 | llama3.2:3b |  |  |  |
-| Q1 | qwen2.5:3b |  |  |  |
-| Q2 | llama3.2:3b |  |  |  |
-| Q2 | qwen2.5:3b |  |  |  |
-| Q3 | llama3.2:3b |  |  |  |
-| Q3 | qwen2.5:3b |  |  |  |
-
-## Observations
-
-- Quality: 
-- Speed: 
-- Out-of-scope behaviour: 
-- Which model I would use and why: 
