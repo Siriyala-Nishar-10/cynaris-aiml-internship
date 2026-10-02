@@ -1,0 +1,180 @@
+{
+  "llama3.2:3b": {
+    "What is the main topic of this document?": {
+      "question": "What is the main topic of this document?",
+      "model": "llama3.2:3b",
+      "sources": [
+        {
+          "text": "III. PROBLEM FORMULATION The presented study addresses the challenge of streamlining the workload within Human Resources (HR) departments through the development of intelligent banking assistants enhanced by structured internal documentation. The primary focus is on effectively leveraging RAG systems to assist employees in quickly obtaining accurate answers related to internal organizational policies, principles, and legal requirements. One of the significant challenges in this context is that normative documents and regulatory texts are predominantly stored in unstructured formats, such as PDFs, which are not optimized for embedding or semantic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form do",
+          "sim": 0.5419360399246216,
+          "source": "sample.pdf",
+          "page": 2
+        },
+        {
+          "text": "tic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form documents that contain complex hierarchical information. The input data of the RAG system comprise: • Employee-generated queries expressed in natural language, typically regarding organizational rules, HR policies, legal compliance, and internal procedural details. • Structured internal data, including detailed organizational guidelines, company -specific rules, processes, and normative regulations. The expected output is accurate, contextually relevant, and coherent natural language responses provided by the banking assistant, addressing the specific employee query and minimizing the necessity for HR personnel intervention. Several constraints",
+          "sim": 0.5134053230285645,
+          "source": "sample.pdf",
+          "page": 2
+        },
+        {
+          "text": "on structured and semi-structured data in Bulgarian. The research is executed in two main phas es: an initial phase with structured Excel question -answer pairs, and a more complex phase with unstructured PDF documents. Key innovati ve contributions in the suggested RAG-based system include semantic chunking, custom metadata enrichment, and high -dimensional embedding models. The evaluation by manual expert review confirms a substantial increase in the proportion of fully correct answers, from around 60% in the default baseline to 85% in the final system. Latency remained suitable for real -time applications. The results highlight the importance of data preprocessing, chunking strategy, and embedding quality in real-world enterprise knowledge assistants. A careful, iterative approach start",
+          "sim": 0.48724478483200073,
+          "source": "sample.pdf",
+          "page": 5
+        }
+      ],
+      "llm_called": true,
+      "eval_tokens": 34,
+      "error": null,
+      "answer": "The main topic of this document is streamlining the workload within Human Resources (HR) departments through the development of intelligent banking assistants. [sample.pdf p.1]",
+      "seconds": 8.51
+    },
+    "What language is the data in, and what are the two phases of the research?": {
+      "question": "What language is the data in, and what are the two phases of the research?",
+      "model": "llama3.2:3b",
+      "sources": [
+        {
+          "text": " of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2021, pp. 2523-2544. [5] H. van den Broek-Altenburg, A. S. Ather, and A. L. Williams, “The potential of large language models for healthcare: a review of the applications and challenges,” Journal of the American Medical Informatics Association, vol. 30, no. 11, pp. 2005–2016, 2023. [6] P. Shah , A. Chintalapati, and R. Srivastava, \"FinGPT: Instruction Tuning for Financial Large Language Models,\" arXiv preprint arXiv:2310.04791, 2023. [7] H. Yu, \"Legal NLP: A review of the state -of-the-art,\" Natural Language Engineering, vol. 29, no. 2, pp. 235-261, 2023. [8] W. Eisenschlos, S. Thorne, F. Petroni, and S. Riedel, \"Fusing Structure and Text for Richer Representations,\" in Proceedings",
+          "sim": 0.6193535327911377,
+          "source": "sample.pdf",
+          "page": 6
+        },
+        {
+          "text": "on structured and semi-structured data in Bulgarian. The research is executed in two main phas es: an initial phase with structured Excel question -answer pairs, and a more complex phase with unstructured PDF documents. Key innovati ve contributions in the suggested RAG-based system include semantic chunking, custom metadata enrichment, and high -dimensional embedding models. The evaluation by manual expert review confirms a substantial increase in the proportion of fully correct answers, from around 60% in the default baseline to 85% in the final system. Latency remained suitable for real -time applications. The results highlight the importance of data preprocessing, chunking strategy, and embedding quality in real-world enterprise knowledge assistants. A careful, iterative approach start",
+          "sim": 0.6148035526275635,
+          "source": "sample.pdf",
+          "page": 5
+        },
+        {
+          "text": "tic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form documents that contain complex hierarchical information. The input data of the RAG system comprise: • Employee-generated queries expressed in natural language, typically regarding organizational rules, HR policies, legal compliance, and internal procedural details. • Structured internal data, including detailed organizational guidelines, company -specific rules, processes, and normative regulations. The expected output is accurate, contextually relevant, and coherent natural language responses provided by the banking assistant, addressing the specific employee query and minimizing the necessity for HR personnel intervention. Several constraints",
+          "sim": 0.5993561744689941,
+          "source": "sample.pdf",
+          "page": 2
+        }
+      ],
+      "llm_called": true,
+      "eval_tokens": 45,
+      "error": null,
+      "answer": "The data is in natural language. The research is executed in two main phases: an initial phase with structured Excel question-answer pairs, and a more complex phase with unstructured PDF documents. [sample.pdf p.5]",
+      "seconds": 28.82
+    },
+    "Who won the 2010 FIFA World Cup?": {
+      "question": "Who won the 2010 FIFA World Cup?",
+      "model": "llama3.2:3b",
+      "sources": [
+        {
+          "text": "on structured and semi-structured data in Bulgarian. The research is executed in two main phas es: an initial phase with structured Excel question -answer pairs, and a more complex phase with unstructured PDF documents. Key innovati ve contributions in the suggested RAG-based system include semantic chunking, custom metadata enrichment, and high -dimensional embedding models. The evaluation by manual expert review confirms a substantial increase in the proportion of fully correct answers, from around 60% in the default baseline to 85% in the final system. Latency remained suitable for real -time applications. The results highlight the importance of data preprocessing, chunking strategy, and embedding quality in real-world enterprise knowledge assistants. A careful, iterative approach start",
+          "sim": 0.3992108702659607,
+          "source": "sample.pdf",
+          "page": 5
+        },
+        {
+          "text": "vol. 8, pp. 169336-169357, 2020. [11] I. Koychev, P. Nakov, P. Darakchiev, and P. Stanchev, “bgGPT: A Bulgarian Generative Pr e-trained Transformer,” in Proceedings of the International Conference on Recent Advancesin Natural Language Processing (RANLP 2023), 2023, pp. 627–635. Authorized licensed use limited to: Access provided by VTU consortium. Downloaded on September 22,2026 at 14:38:09 UTC from IEEE Xplore. Restrictions apply.",
+          "sim": 0.3950650691986084,
+          "source": "sample.pdf",
+          "page": 6
+        },
+        {
+          "text": "tic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form documents that contain complex hierarchical information. The input data of the RAG system comprise: • Employee-generated queries expressed in natural language, typically regarding organizational rules, HR policies, legal compliance, and internal procedural details. • Structured internal data, including detailed organizational guidelines, company -specific rules, processes, and normative regulations. The expected output is accurate, contextually relevant, and coherent natural language responses provided by the banking assistant, addressing the specific employee query and minimizing the necessity for HR personnel intervention. Several constraints",
+          "sim": 0.37094300985336304,
+          "source": "sample.pdf",
+          "page": 2
+        }
+      ],
+      "llm_called": true,
+      "eval_tokens": 42,
+      "error": null,
+      "answer": "I don't know based on the documents. [sample.pdf p.5] does not mention the 2010 FIFA World Cup, and the other documents do not provide any relevant information on this topic.",
+      "seconds": 18.71
+    }
+  },
+  "qwen2.5:3b": {
+    "What is the main topic of this document?": {
+      "question": "What is the main topic of this document?",
+      "model": "qwen2.5:3b",
+      "sources": [
+        {
+          "text": "III. PROBLEM FORMULATION The presented study addresses the challenge of streamlining the workload within Human Resources (HR) departments through the development of intelligent banking assistants enhanced by structured internal documentation. The primary focus is on effectively leveraging RAG systems to assist employees in quickly obtaining accurate answers related to internal organizational policies, principles, and legal requirements. One of the significant challenges in this context is that normative documents and regulatory texts are predominantly stored in unstructured formats, such as PDFs, which are not optimized for embedding or semantic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form do",
+          "sim": 0.5419360399246216,
+          "source": "sample.pdf",
+          "page": 2
+        },
+        {
+          "text": "tic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form documents that contain complex hierarchical information. The input data of the RAG system comprise: • Employee-generated queries expressed in natural language, typically regarding organizational rules, HR policies, legal compliance, and internal procedural details. • Structured internal data, including detailed organizational guidelines, company -specific rules, processes, and normative regulations. The expected output is accurate, contextually relevant, and coherent natural language responses provided by the banking assistant, addressing the specific employee query and minimizing the necessity for HR personnel intervention. Several constraints",
+          "sim": 0.5134053230285645,
+          "source": "sample.pdf",
+          "page": 2
+        },
+        {
+          "text": "on structured and semi-structured data in Bulgarian. The research is executed in two main phas es: an initial phase with structured Excel question -answer pairs, and a more complex phase with unstructured PDF documents. Key innovati ve contributions in the suggested RAG-based system include semantic chunking, custom metadata enrichment, and high -dimensional embedding models. The evaluation by manual expert review confirms a substantial increase in the proportion of fully correct answers, from around 60% in the default baseline to 85% in the final system. Latency remained suitable for real -time applications. The results highlight the importance of data preprocessing, chunking strategy, and embedding quality in real-world enterprise knowledge assistants. A careful, iterative approach start",
+          "sim": 0.48724478483200073,
+          "source": "sample.pdf",
+          "page": 5
+        }
+      ],
+      "llm_called": true,
+      "eval_tokens": 46,
+      "error": null,
+      "answer": "The main topic of this document is the development of an intelligent banking assistant using RAG systems to streamline HR workload by efficiently handling queries related to internal organizational policies and legal requirements, despite the unstructured nature of normative documents.",
+      "seconds": 44.9
+    },
+    "What language is the data in, and what are the two phases of the research?": {
+      "question": "What language is the data in, and what are the two phases of the research?",
+      "model": "qwen2.5:3b",
+      "sources": [
+        {
+          "text": " of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 2021, pp. 2523-2544. [5] H. van den Broek-Altenburg, A. S. Ather, and A. L. Williams, “The potential of large language models for healthcare: a review of the applications and challenges,” Journal of the American Medical Informatics Association, vol. 30, no. 11, pp. 2005–2016, 2023. [6] P. Shah , A. Chintalapati, and R. Srivastava, \"FinGPT: Instruction Tuning for Financial Large Language Models,\" arXiv preprint arXiv:2310.04791, 2023. [7] H. Yu, \"Legal NLP: A review of the state -of-the-art,\" Natural Language Engineering, vol. 29, no. 2, pp. 235-261, 2023. [8] W. Eisenschlos, S. Thorne, F. Petroni, and S. Riedel, \"Fusing Structure and Text for Richer Representations,\" in Proceedings",
+          "sim": 0.6193535327911377,
+          "source": "sample.pdf",
+          "page": 6
+        },
+        {
+          "text": "on structured and semi-structured data in Bulgarian. The research is executed in two main phas es: an initial phase with structured Excel question -answer pairs, and a more complex phase with unstructured PDF documents. Key innovati ve contributions in the suggested RAG-based system include semantic chunking, custom metadata enrichment, and high -dimensional embedding models. The evaluation by manual expert review confirms a substantial increase in the proportion of fully correct answers, from around 60% in the default baseline to 85% in the final system. Latency remained suitable for real -time applications. The results highlight the importance of data preprocessing, chunking strategy, and embedding quality in real-world enterprise knowledge assistants. A careful, iterative approach start",
+          "sim": 0.6148035526275635,
+          "source": "sample.pdf",
+          "page": 5
+        },
+        {
+          "text": "tic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form documents that contain complex hierarchical information. The input data of the RAG system comprise: • Employee-generated queries expressed in natural language, typically regarding organizational rules, HR policies, legal compliance, and internal procedural details. • Structured internal data, including detailed organizational guidelines, company -specific rules, processes, and normative regulations. The expected output is accurate, contextually relevant, and coherent natural language responses provided by the banking assistant, addressing the specific employee query and minimizing the necessity for HR personnel intervention. Several constraints",
+          "sim": 0.5993561744689941,
+          "source": "sample.pdf",
+          "page": 2
+        }
+      ],
+      "llm_called": true,
+      "eval_tokens": 36,
+      "error": null,
+      "answer": "The data is in natural language. The research has two main phases: an initial phase with structured Excel question-answer pairs, and a more complex phase with unstructured PDF documents.",
+      "seconds": 22.63
+    },
+    "Who won the 2010 FIFA World Cup?": {
+      "question": "Who won the 2010 FIFA World Cup?",
+      "model": "qwen2.5:3b",
+      "sources": [
+        {
+          "text": "on structured and semi-structured data in Bulgarian. The research is executed in two main phas es: an initial phase with structured Excel question -answer pairs, and a more complex phase with unstructured PDF documents. Key innovati ve contributions in the suggested RAG-based system include semantic chunking, custom metadata enrichment, and high -dimensional embedding models. The evaluation by manual expert review confirms a substantial increase in the proportion of fully correct answers, from around 60% in the default baseline to 85% in the final system. Latency remained suitable for real -time applications. The results highlight the importance of data preprocessing, chunking strategy, and embedding quality in real-world enterprise knowledge assistants. A careful, iterative approach start",
+          "sim": 0.3992108702659607,
+          "source": "sample.pdf",
+          "page": 5
+        },
+        {
+          "text": "vol. 8, pp. 169336-169357, 2020. [11] I. Koychev, P. Nakov, P. Darakchiev, and P. Stanchev, “bgGPT: A Bulgarian Generative Pr e-trained Transformer,” in Proceedings of the International Conference on Recent Advancesin Natural Language Processing (RANLP 2023), 2023, pp. 627–635. Authorized licensed use limited to: Access provided by VTU consortium. Downloaded on September 22,2026 at 14:38:09 UTC from IEEE Xplore. Restrictions apply.",
+          "sim": 0.3950650691986084,
+          "source": "sample.pdf",
+          "page": 6
+        },
+        {
+          "text": "tic search. The lack of structure makes it difficult to extract relevant content efficiently and accurately, especially when dealing with long-form documents that contain complex hierarchical information. The input data of the RAG system comprise: • Employee-generated queries expressed in natural language, typically regarding organizational rules, HR policies, legal compliance, and internal procedural details. • Structured internal data, including detailed organizational guidelines, company -specific rules, processes, and normative regulations. The expected output is accurate, contextually relevant, and coherent natural language responses provided by the banking assistant, addressing the specific employee query and minimizing the necessity for HR personnel intervention. Several constraints",
+          "sim": 0.37094300985336304,
+          "source": "sample.pdf",
+          "page": 2
+        }
+      ],
+      "llm_called": true,
+      "eval_tokens": 10,
+      "error": null,
+      "answer": "I don't know based on the documents.",
+      "seconds": 15.48
+    }
+  }
+}
