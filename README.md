@@ -188,13 +188,22 @@ cynaris-aiml-internship/
 │   ├── .gitignore
 │   └── README_W5D3.md
 │
-└── cynaris-w5d4/                  # W5D4: Semantic Search with ChromaDB
-    ├── ingest_docs.py
-    ├── pdf_rag.py
-    ├── semantic_search.py
-    ├── .gitignore
-    ├── evidence/
-    └── README_W5D4.md
+├── cynaris-w5d4/                  # W5D4: Semantic Search with ChromaDB
+|   ├── ingest_docs.py
+|   ├── pdf_rag.py
+|   ├── semantic_search.py
+|   ├── .gitignore
+|   ├── evidence/
+|   └── README_W5D4.md
+|
+└── cynaris-w5d5/                  # W5D5: Week 5 Project, Local Q&A Bot (Ollama + ChromaDB)
+    ├── qa_bot.py
+    ├── run_questions.py
+    ├── compare_models.py
+    ├── run_questions_results.json
+    ├── comparison_results.json
+    ├── comparison_report.md
+    └── README_W5D5.md
 
 ```
 
@@ -232,6 +241,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 5    | D2  | Prompt Engineering & System Prompts with Ollama | ✅ Complete (PR raised)  |
 | 5    | D3  | RAG with Document Ingestion & ChromaDB      |   ✅ Complete (PR raised)   |
 | 5    | D4  | Semantic Search with ChromaDB               | ✅ Complete (PR raised)  |
+| 5    | D5  | Week 5 Project: Local Q&A Bot — Ollama + ChromaDB | ✅ Complete (PR raised) |
 
 
 ## Note on Repo Access
