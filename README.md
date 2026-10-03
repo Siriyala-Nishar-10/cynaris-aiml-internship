@@ -196,14 +196,29 @@ cynaris-aiml-internship/
 |   ├── evidence/
 |   └── README_W5D4.md
 |
-└── cynaris-w5d5/                  # W5D5: Week 5 Project, Local Q&A Bot (Ollama + ChromaDB)
+├── cynaris-w5d5/                  # W5D5: Week 5 Project, Local Q&A Bot (Ollama + ChromaDB)
+|   ├── qa_bot.py
+|   ├── run_questions.py
+|   ├── compare_models.py
+|   ├── run_questions_results.json
+|   ├── comparison_results.json
+|   ├── comparison_report.md
+|   └── README_W5D5.md
+|
+└── cynaris-w5d6/                  # W5D6: LLM Cost Optimisation — Token Economics & Caching
+    ├── token_audit.py
+    ├── compress_prompt.py
+    ├── semantic_cache.ipynb
+    ├── cost_tracker.py
+    ├── build_audit_xlsx.py
+    ├── token_cost_audit.xlsx
+    ├── routing_strategy.md
     ├── qa_bot.py
-    ├── run_questions.py
-    ├── compare_models.py
-    ├── run_questions_results.json
-    ├── comparison_results.json
-    ├── comparison_report.md
-    └── README_W5D5.md
+    ├── token_audit.csv
+    ├── compression_results.json
+    ├── cost_log.csv
+    ├── .gitignore
+    └── README_W5D6.md
 
 ```
 
@@ -242,6 +257,8 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 5    | D3  | RAG with Document Ingestion & ChromaDB      |   ✅ Complete (PR raised)   |
 | 5    | D4  | Semantic Search with ChromaDB               | ✅ Complete (PR raised)  |
 | 5    | D5  | Week 5 Project: Local Q&A Bot — Ollama + ChromaDB | ✅ Complete (PR raised) |
+| 5    | D6  | LLM Cost Optimisation — Token Economics & Caching | ✅ Complete (PR raised) |
+
 
 
 ## Note on Repo Access
