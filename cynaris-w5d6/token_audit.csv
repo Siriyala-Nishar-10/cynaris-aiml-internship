@@ -1,0 +1,6 @@
+label,k_chunks,chars,tokens_tiktoken,tokens_ollama
+1 chunks,1,1233,228,
+3 chunks,3,2871,537,
+5 chunks,5,4509,911,
+8 chunks,8,6966,1330,
+12 chunks,12,10242,1963,
