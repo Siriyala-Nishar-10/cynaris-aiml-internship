@@ -218,17 +218,33 @@ cynaris-aiml-internship/
 |   ├── .gitignore
 |   └── README_W5D6.md
 |
-└── cynaris-w6d1/                  # W6D1: LangChain Fundamentals — Chains & Prompts
-    ├── lc_chain.py
-    ├── lc_memory.py
-    ├── lc_agent.py
-    ├── requirements.txt
-    ├── chain_results.json
-    ├── memory_results.json
-    ├── agent_results_llama3.2_3b.json
-    ├── agent_results_qwen2.5_3b.json
-    ├── .gitignore
-    └── README_W6D1.md
+├── cynaris-w6d1/                  # W6D1: LangChain Fundamentals — Chains & Prompts
+│   ├── lc_chain.py
+│   ├── lc_memory.py
+│   ├── lc_agent.py
+│   ├── requirements.txt
+│   ├── chain_results.json
+│   ├── memory_results.json
+│   ├── agent_results_llama3.2_3b.json
+│   ├── agent_results_qwen2.5_3b.json
+│   ├── .gitignore
+│   └── README_W6D1.md
+│
+└── cynaris-w6d2/                  # W6D2: Advanced LangChain Memory & Persistence
+├── lc_chain.py
+├── lc_memory.py
+├── lc_memory_types.py
+├── lc_agent.py
+├── requirements.txt
+├── chain_results.json
+├── memory_results.json
+├── memory_types_results.json
+├── agent_results_llama3.2_3b.json
+├── chat_memory.sqlite
+├── .gitignore
+└── README_W6D2.md
+
+
 
 ```
 
@@ -269,6 +285,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 5    | D5  | Week 5 Project: Local Q&A Bot — Ollama + ChromaDB | ✅ Complete (PR raised) |
 | 5    | D6  | LLM Cost Optimisation — Token Economics & Caching | ✅ Complete (PR raised) |
 | 6    | D1  | LangChain Fundamentals — Chains & Prompts   | ✅ Complete (PR raised) |
+| 6    | D2  | Advanced LangChain Memory & Persistence    | ✅ Complete (PR raised)  |
 
 
 
