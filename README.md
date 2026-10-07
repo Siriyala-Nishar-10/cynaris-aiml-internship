@@ -230,20 +230,25 @@ cynaris-aiml-internship/
 │   ├── .gitignore
 │   └── README_W6D1.md
 │
-└── cynaris-w6d2/                  # W6D2: Advanced LangChain Memory & Persistence
-├── lc_chain.py
-├── lc_memory.py
-├── lc_memory_types.py
-├── lc_agent.py
-├── requirements.txt
-├── chain_results.json
-├── memory_results.json
-├── memory_types_results.json
-├── agent_results_llama3.2_3b.json
-├── chat_memory.sqlite
-├── .gitignore
-└── README_W6D2.md
-
+├── cynaris-w6d2/                  # W6D2: Advanced LangChain Memory & Persistence
+│   ├── lc_chain.py
+│   ├── lc_memory.py
+│   ├── lc_memory_types.py
+│   ├── lc_agent.py
+│   ├── requirements.txt
+│   ├── chain_results.json
+│   ├── memory_results.json
+│   ├── memory_types_results.json
+│   ├── agent_results_llama3.2_3b.json
+│   ├── chat_memory.sqlite
+│   ├── .gitignore
+│   └── README_W6D2.md
+│
+└── cynaris-w6d3/                  # W6D3: LangChain Tools & Agents
+    ├── chain_memory.py
+    ├── agent_tools.py
+    ├── evidence/
+    └── README_W6D3.md
 
 
 ```
@@ -286,7 +291,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 5    | D6  | LLM Cost Optimisation — Token Economics & Caching | ✅ Complete (PR raised) |
 | 6    | D1  | LangChain Fundamentals — Chains & Prompts   | ✅ Complete (PR raised) |
 | 6    | D2  | Advanced LangChain Memory & Persistence    | ✅ Complete (PR raised)  |
-
+| 6    | D3  | LangChain Tools & Agents                      | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
