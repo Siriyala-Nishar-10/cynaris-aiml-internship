@@ -193,7 +193,6 @@ cynaris-aiml-internship/
 |   ├── pdf_rag.py
 |   ├── semantic_search.py
 |   ├── .gitignore
-|   ├── evidence/
 |   └── README_W5D4.md
 |
 ├── cynaris-w5d5/                  # W5D5: Week 5 Project, Local Q&A Bot (Ollama + ChromaDB)
@@ -204,7 +203,6 @@ cynaris-aiml-internship/
 |   ├── comparison_results.json
 |   ├── comparison_report.md
 |   └── README_W5D5.md
-|
 |
 ├── cynaris-w5d6/                  # W5D6: LLM Cost Optimisation — Token Economics & Caching
 |   ├── token_audit.py
@@ -243,13 +241,19 @@ cynaris-aiml-internship/
 │   ├── chat_memory.sqlite
 │   ├── .gitignore
 │   └── README_W6D2.md
+|
+├── cynaris-w6d3/                  # W6D3: LangChain Tools & Agents
+│   ├── chain_memory.py
+│   ├── agent_tools.py
+│   └── README_W6D3.md
 │
-└── cynaris-w6d3/                  # W6D3: LangChain Tools & Agents
-    ├── chain_memory.py
-    ├── agent_tools.py
-    ├── evidence/
-    └── README_W6D3.md
-
+└── cynaris-w6d4/                  # W6D4: RAG Pipeline — LangChain + ChromaDB
+    ├── chroma_basics.py
+    ├── rag_pdf.py
+    ├── sample.pdf
+    ├── requirements.txt
+    ├── .gitignore
+    └── README_W6D4.md
 
 ```
 
@@ -292,6 +296,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 6    | D1  | LangChain Fundamentals — Chains & Prompts   | ✅ Complete (PR raised) |
 | 6    | D2  | Advanced LangChain Memory & Persistence    | ✅ Complete (PR raised)  |
 | 6    | D3  | LangChain Tools & Agents                      | ✅ Complete (PR raised)  |
+| 6    | D4  | RAG Pipeline — LangChain + ChromaDB         | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
