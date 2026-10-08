@@ -1,0 +1,31 @@
+{
+  "model": "llama3.2:3b",
+  "turns": [
+    {
+      "question": "Hi, my name is Siriyala and I'm learning LangChain.",
+      "answer": "Hello Siriyala! LangChain is a powerful framework for building scalable and flexible data pipelines, and I'm happy to help you learn and explore its capabilities."
+    },
+    {
+      "question": "I'm running a local model through Ollama on my laptop.",
+      "answer": "Ollama is a popular framework for running large language models on local hardware, and running it on your laptop should give you a good idea of how it performs in a low-latency setting. Are you seeing any performance or latency issues with your local model?"
+    },
+    {
+      "question": "What is my name?",
+      "answer": "Your name is Siriyala."
+    },
+    {
+      "question": "What am I learning, and how am I running the model?",
+      "answer": "You're learning LangChain, and you're running a local model through Ollama on your laptop."
+    },
+    {
+      "question": "Summarise our conversation so far in one sentence.",
+      "answer": "We've discussed your learning of LangChain, and you've been running a local model through Ollama on your laptop, seeking guidance and information about your setup."
+    }
+  ],
+  "history_messages": 10,
+  "turn3_remembers_name": true,
+  "turn4_remembers_topic": true,
+  "control_answer": "I don't have any information about your name. If you'd like to share it with me, I'd be happy to chat with you!",
+  "control_forgot": true,
+  "legacy_demo": "ConversationBufferMemory not available (pip install langchain-classic to try it)"
+}
