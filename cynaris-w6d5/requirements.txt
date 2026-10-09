@@ -1,0 +1,7 @@
+chromadb
+langchain
+langchain-core
+langchain-ollama
+langchain-text-splitters
+langgraph
+pypdf
