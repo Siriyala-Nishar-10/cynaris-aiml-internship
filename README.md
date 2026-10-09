@@ -247,13 +247,20 @@ cynaris-aiml-internship/
 │   ├── agent_tools.py
 │   └── README_W6D3.md
 │
-└── cynaris-w6d4/                  # W6D4: RAG Pipeline — LangChain + ChromaDB
-    ├── chroma_basics.py
-    ├── rag_pdf.py
-    ├── sample.pdf
+├── cynaris-w6d4/                  # W6D4: RAG Pipeline — LangChain + ChromaDB
+│   ├── chroma_basics.py
+│   ├── rag_pdf.py
+│   ├── sample.pdf
+│   ├── requirements.txt
+│   ├── .gitignore
+│   └── README_W6D4.md
+│
+└── cynaris-w6d5/                  # W6D5: Week 6 Project — Document Chatbot with LangChain
+    ├── doc_chatbot.py
+    ├── agent_tools.py
     ├── requirements.txt
     ├── .gitignore
-    └── README_W6D4.md
+    └── README_W6D5.md
 
 ```
 
@@ -297,6 +304,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 6    | D2  | Advanced LangChain Memory & Persistence    | ✅ Complete (PR raised)  |
 | 6    | D3  | LangChain Tools & Agents                      | ✅ Complete (PR raised)  |
 | 6    | D4  | RAG Pipeline — LangChain + ChromaDB         | ✅ Complete (PR raised)  |
+| 6    | D5  | Week 6 Project: Document Chatbot with LangChain | ✅ Complete (PR raised) |
 
 
 ## Note on Repo Access
