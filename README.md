@@ -255,12 +255,22 @@ cynaris-aiml-internship/
 │   ├── .gitignore
 │   └── README_W6D4.md
 │
-└── cynaris-w6d5/                  # W6D5: Week 6 Project — Document Chatbot with LangChain
-    ├── doc_chatbot.py
-    ├── agent_tools.py
-    ├── requirements.txt
-    ├── .gitignore
-    └── README_W6D5.md
+├── cynaris-w6d5/                  # W6D5: Week 6 Project — Document Chatbot with LangChain
+│   ├── doc_chatbot.py
+│   ├── agent_tools.py
+│   ├── requirements.txt
+│   ├── .gitignore
+│   └── README_W6D5.md
+│
+└── cynaris-w7d1/                  # W7D1: Haystack Pipeline Architecture (BM25 vs Dense)
+    ├── haystack_pipeline.py
+    ├── evaluate.py
+    ├── questions.txt
+    ├── results/
+    │   ├── bm25_results.csv
+    │   └── dense_results.csv
+    └── README_W7D1.md
+
 
 ```
 
@@ -305,6 +315,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 6    | D3  | LangChain Tools & Agents                      | ✅ Complete (PR raised)  |
 | 6    | D4  | RAG Pipeline — LangChain + ChromaDB         | ✅ Complete (PR raised)  |
 | 6    | D5  | Week 6 Project: Document Chatbot with LangChain | ✅ Complete (PR raised) |
+| 7    | D1  | Haystack Pipeline Architecture (BM25 vs Dense Retrieval) | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
