@@ -262,14 +262,24 @@ cynaris-aiml-internship/
 │   ├── .gitignore
 │   └── README_W6D5.md
 │
-└── cynaris-w7d1/                  # W7D1: Haystack Pipeline Architecture (BM25 vs Dense)
+├── cynaris-w7d1/                  # W7D1: Haystack Pipeline Architecture (BM25 vs Dense)
+|   ├── haystack_pipeline.py
+|   ├── evaluate.py
+|   ├── questions.txt
+|   ├── results/
+|   │   ├── bm25_results.csv
+|   │   └── dense_results.csv
+|   └── README_W7D1.md
+│
+└── cynaris-w7d2/                  # W7D2: Haystack PDF RAG Pipeline & Evaluation
     ├── haystack_pipeline.py
     ├── evaluate.py
     ├── questions.txt
     ├── results/
     │   ├── bm25_results.csv
-    │   └── dense_results.csv
-    └── README_W7D1.md
+    │   ├── dense_results.csv
+    |   └── hybrid_results.csv
+    └── README_W7D2.md
 
 
 ```
@@ -316,7 +326,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 6    | D4  | RAG Pipeline — LangChain + ChromaDB         | ✅ Complete (PR raised)  |
 | 6    | D5  | Week 6 Project: Document Chatbot with LangChain | ✅ Complete (PR raised) |
 | 7    | D1  | Haystack Pipeline Architecture (BM25 vs Dense Retrieval) | ✅ Complete (PR raised)  |
-
+| 7    | D2  | Haystack PDF RAG Pipeline & Evaluation | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
