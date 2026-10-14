@@ -271,15 +271,25 @@ cynaris-aiml-internship/
 |   │   └── dense_results.csv
 |   └── README_W7D1.md
 │
-└── cynaris-w7d2/                  # W7D2: Haystack PDF RAG Pipeline & Evaluation
-    ├── haystack_pipeline.py
-    ├── evaluate.py
+├── cynaris-w7d2/                  # W7D2: Haystack PDF RAG Pipeline & Evaluation
+│   ├── haystack_pipeline.py
+│   ├── evaluate.py
+│   ├── questions.txt
+│   ├── results/
+│   │   ├── bm25_results.csv
+│   │   ├── dense_results.csv
+│   │   └── hybrid_results.csv
+│   └── README_W7D2.md
+│
+└── cynaris-w7d3/                  # W7D3: LlamaIndex — Memory vs ChromaDB
+    ├── pdf_to_txt.py
+    ├── rag_compare.py
+    ├── summarise.py
     ├── questions.txt
     ├── results/
-    │   ├── bm25_results.csv
-    │   ├── dense_results.csv
-    |   └── hybrid_results.csv
-    └── README_W7D2.md
+    │   ├── memory results CSV
+    │   └── chroma results CSV
+    └── README_W7D3.md
 
 
 ```
@@ -327,6 +337,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 6    | D5  | Week 6 Project: Document Chatbot with LangChain | ✅ Complete (PR raised) |
 | 7    | D1  | Haystack Pipeline Architecture (BM25 vs Dense Retrieval) | ✅ Complete (PR raised)  |
 | 7    | D2  | Haystack PDF RAG Pipeline & Evaluation | ✅ Complete (PR raised)  |
+| 7    | D3  | LlamaIndex RAG — Memory vs ChromaDB Vector Stores | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
