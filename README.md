@@ -281,15 +281,24 @@ cynaris-aiml-internship/
 │   │   └── hybrid_results.csv
 │   └── README_W7D2.md
 │
-└── cynaris-w7d3/                  # W7D3: LlamaIndex — Memory vs ChromaDB
-    ├── pdf_to_txt.py
-    ├── rag_compare.py
-    ├── summarise.py
-    ├── questions.txt
-    ├── results/
-    │   ├── memory results CSV
-    │   └── chroma results CSV
-    └── README_W7D3.md
+├── cynaris-w7d3/                  # W7D3: LlamaIndex — Memory vs ChromaDB
+|   ├── pdf_to_txt.py
+|   ├── rag_compare.py
+|   ├── summarise.py
+|   ├── questions.txt
+|   ├── results/
+|   │   ├── memory results CSV
+|   │   └── chroma results CSV
+|   └── README_W7D3.md
+|
+└── cynaris-w7d4/                  # W7D4: LlamaIndex + Ollama — Local RAG
+    ├── ollama_client.py
+    ├── ollama_prompts.py
+    ├── compare_models.py
+    ├── results
+    ├── requirements.txt
+    ├── .gitignore
+    └── README_W7D4.md
 
 
 ```
@@ -338,6 +347,7 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 7    | D1  | Haystack Pipeline Architecture (BM25 vs Dense Retrieval) | ✅ Complete (PR raised)  |
 | 7    | D2  | Haystack PDF RAG Pipeline & Evaluation | ✅ Complete (PR raised)  |
 | 7    | D3  | LlamaIndex RAG — Memory vs ChromaDB Vector Stores | ✅ Complete (PR raised)  |
+| 7    | D4  | W7D4: LlamaIndex + Ollama — Local RAG | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
