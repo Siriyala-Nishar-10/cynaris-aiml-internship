@@ -291,14 +291,28 @@ cynaris-aiml-internship/
 |   │   └── chroma results CSV
 |   └── README_W7D3.md
 |
-└── cynaris-w7d4/                  # W7D4: LlamaIndex + Ollama — Local RAG
-    ├── ollama_client.py
-    ├── ollama_prompts.py
-    ├── compare_models.py
-    ├── results
+├── cynaris-w7d4/                  # W7D4: LlamaIndex + Ollama — Local RAG
+│   ├── ollama_client.py
+│   ├── ollama_prompts.py
+│   ├── compare_models.py
+│   ├── results/
+│   ├── requirements.txt
+│   ├── .gitignore
+│   └── README_W7D4.md
+│
+└── cynaris-w7d5/                  # W7D5 Project: Multi-document RAG System
+    ├── multi_doc_rag.py
+    ├── pdf_to_txt.py
+    ├── summarise.py
+    ├── utils.py
+    ├── questions.txt
     ├── requirements.txt
-    ├── .gitignore
-    └── README_W7D4.md
+    ├── data/
+    ├── pdfs/
+    ├── tests/
+    ├── results/
+    ├── README_W7D5.md
+    └── .gitignore
 
 
 ```
@@ -347,7 +361,8 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 7    | D1  | Haystack Pipeline Architecture (BM25 vs Dense Retrieval) | ✅ Complete (PR raised)  |
 | 7    | D2  | Haystack PDF RAG Pipeline & Evaluation | ✅ Complete (PR raised)  |
 | 7    | D3  | LlamaIndex RAG — Memory vs ChromaDB Vector Stores | ✅ Complete (PR raised)  |
-| 7    | D4  | W7D4: LlamaIndex + Ollama — Local RAG | ✅ Complete (PR raised)  |
+| 7    | D4  | LlamaIndex + Ollama — Local RAG | ✅ Complete (PR raised)  |
+| 7    | D4  | Week 7 Project: Multi-document RAG System | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
