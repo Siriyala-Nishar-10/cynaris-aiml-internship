@@ -1,0 +1,10 @@
+What precision did GrowWise SME achieve compared to the keyword-based approach?
+Which techniques does GrowWise SME use to match a user query with financial schemes?
+How many mushroom species did the CNN model classify and what test accuracy did it reach?
+What technique was used to help the mushroom CNN avoid overfitting?
+Which document splitter was selected for the PDF documents in the banking RAG framework?
+What proportion of fully correct answers did the proposed banking RAG system reach?
+What share of finance leaders surveyed by Wolters Kluwer had already adopted agentic AI?
+How much did hybrid AI-human tax teams reduce Schedule K-1 production time?
+How many raw discrepancies did QuickSight flag compared with the manual process?
+Why did experienced analysts resist the AI reconciliation tool's findings?
