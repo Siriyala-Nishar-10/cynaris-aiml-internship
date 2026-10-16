@@ -1,0 +1,201 @@
+order_id,city,category,quantity,unit_price,order_date,total_amount,region
+1001,Hyderabad,Electronics,1,766.84,2026-01-01,766.84,South
+1002,Mumbai,Apparel,5,4291.78,2026-01-02,21458.9,West
+1003,Chennai,Apparel,2,4350.51,2026-01-03,8701.02,South
+1004,Chennai,Home & Kitchen,5,1014.04,2026-01-04,5070.2,South
+1005,Hyderabad,Apparel,5,3748.8,2026-01-05,18744.0,South
+1006,Mumbai,Books,2,1694.01,2026-01-06,3388.02,West
+1007,Bangalore,Home & Kitchen,1,1565.75,2026-01-07,1565.75,South
+1008,Mumbai,Electronics,2,3146.96,2026-01-08,6293.92,West
+1009,Delhi,Groceries,1,3110.63,2026-01-09,3110.63,North
+1010,Delhi,Home & Kitchen,3,2020.99,2026-01-10,6062.97,North
+1011,Bangalore,Groceries,3,826.02,2026-01-11,2478.06,South
+1012,Hyderabad,Home & Kitchen,1,1975.4,2026-01-12,1975.4,South
+1013,Bangalore,Books,3,1645.02,2026-01-13,4935.06,South
+1014,Hyderabad,Apparel,5,2919.26,2026-01-14,14596.3,South
+1015,Bangalore,Home & Kitchen,5,3534.5,2026-01-15,17672.5,South
+1016,Chennai,Groceries,2,4708.73,2026-01-16,9417.46,South
+1017,Delhi,Electronics,3,3677.11,2026-01-17,11031.33,North
+1018,Chennai,Apparel,1,3912.28,2026-01-18,3912.28,South
+1019,Hyderabad,Home & Kitchen,1,1319.41,2026-01-19,1319.41,South
+1020,Hyderabad,Electronics,3,3494.64,2026-01-20,10483.92,South
+1021,Pune,Electronics,4,397.16,2026-01-21,1588.64,West
+1022,Bangalore,Home & Kitchen,5,2676.67,2026-01-22,13383.35,South
+1023,Bangalore,Groceries,2,4688.37,2026-01-23,9376.74,South
+1024,Pune,Electronics,4,677.34,2026-01-24,2709.36,West
+1025,Bangalore,Apparel,1,4003.01,2026-01-25,4003.01,South
+1026,Chennai,Electronics,5,896.42,2026-01-26,4482.1,South
+1027,Pune,Books,5,393.47,2026-01-27,1967.35,West
+1028,Bangalore,Electronics,4,4084.48,2026-01-28,16337.92,South
+1029,Delhi,Groceries,4,4267.64,2026-01-29,17070.56,North
+1030,Bangalore,Books,1,3199.72,2026-01-30,3199.72,South
+1031,Mumbai,Apparel,4,999.52,2026-01-31,3998.08,West
+1032,Hyderabad,Electronics,5,3955.05,2026-02-01,19775.25,South
+1033,Mumbai,Electronics,5,4352.46,2026-02-02,21762.3,West
+1034,Chennai,Home & Kitchen,3,4027.59,2026-02-03,12082.77,South
+1035,Chennai,Home & Kitchen,2,3293.1,2026-02-04,6586.2,South
+1036,Bangalore,Books,3,4842.81,2026-02-05,14528.43,South
+1037,Chennai,Groceries,3,1891.55,2026-02-06,5674.65,South
+1038,Bangalore,Apparel,1,637.52,2026-02-07,637.52,South
+1039,Mumbai,Home & Kitchen,3,1999.65,2026-02-08,5998.95,West
+1040,Bangalore,Electronics,2,4578.53,2026-02-09,9157.06,South
+1041,Bangalore,Home & Kitchen,1,4899.64,2026-02-10,4899.64,South
+1042,Pune,Apparel,1,433.15,2026-02-11,433.15,West
+1043,Hyderabad,Apparel,5,463.34,2026-02-12,2316.7,South
+1044,Hyderabad,Electronics,4,2825.24,2026-02-13,11300.96,South
+1045,Hyderabad,Books,1,1318.99,2026-02-14,1318.99,South
+1046,Delhi,Groceries,5,4660.75,2026-02-15,23303.75,North
+1047,Mumbai,Electronics,5,3034.93,2026-02-16,15174.65,West
+1048,Chennai,Books,5,3156.13,2026-02-17,15780.65,South
+1049,Bangalore,Groceries,1,2171.85,2026-02-18,2171.85,South
+1050,Pune,Apparel,1,2837.44,2026-02-19,2837.44,West
+1051,Hyderabad,Electronics,3,791.3,2026-02-20,2373.9,South
+1052,Bangalore,Groceries,4,940.19,2026-02-21,3760.76,South
+1053,Pune,Books,1,3547.49,2026-02-22,3547.49,West
+1054,Hyderabad,Books,5,4080.02,2026-02-23,20400.1,South
+1055,Chennai,Home & Kitchen,4,3230.39,2026-02-24,12921.56,South
+1056,Mumbai,Books,3,304.68,2026-02-25,914.04,West
+1057,Chennai,Groceries,5,3751.78,2026-02-26,18758.9,South
+1058,Chennai,Home & Kitchen,2,2169.34,2026-02-27,4338.68,South
+1059,Chennai,Books,2,1579.23,2026-02-28,3158.46,South
+1060,Mumbai,Home & Kitchen,5,100.03,2026-03-01,500.15,West
+1061,Chennai,Electronics,2,729.32,2026-03-02,1458.64,South
+1062,Chennai,Groceries,2,353.53,2026-03-03,707.06,South
+1063,Hyderabad,Apparel,3,3068.58,2026-03-04,9205.74,South
+1064,Chennai,Apparel,4,2073.07,2026-03-05,8292.28,South
+1065,Mumbai,Electronics,1,1745.79,2026-03-06,1745.79,West
+1066,Chennai,Home & Kitchen,2,2688.29,2026-03-07,5376.58,South
+1067,Mumbai,Books,5,2226.5,2026-03-08,11132.5,West
+1068,Pune,Groceries,1,2388.26,2026-03-09,2388.26,West
+1069,Mumbai,Electronics,3,2216.53,2026-03-10,6649.59,West
+1070,Pune,Home & Kitchen,3,2968.33,2026-03-11,8904.99,West
+1071,Mumbai,Groceries,4,2768.16,2026-03-12,11072.64,West
+1072,Delhi,Electronics,2,4989.4,2026-03-13,9978.8,North
+1073,Chennai,Apparel,1,1963.07,2026-03-14,1963.07,South
+1074,Delhi,Home & Kitchen,1,2730.12,2026-03-15,2730.12,North
+1075,Delhi,Home & Kitchen,5,4140.7,2026-03-16,20703.5,North
+1076,Pune,Home & Kitchen,1,717.86,2026-03-17,717.86,West
+1077,Chennai,Home & Kitchen,3,1563.64,2026-03-18,4690.92,South
+1078,Chennai,Books,2,1916.14,2026-03-19,3832.28,South
+1079,Delhi,Groceries,2,2213.66,2026-03-20,4427.32,North
+1080,Bangalore,Apparel,3,2846.56,2026-03-21,8539.68,South
+1081,Hyderabad,Electronics,3,4968.02,2026-03-22,14904.06,South
+1082,Pune,Apparel,1,2495.29,2026-03-23,2495.29,West
+1083,Chennai,Groceries,5,2306.58,2026-03-24,11532.9,South
+1084,Mumbai,Apparel,2,4258.12,2026-03-25,8516.24,West
+1085,Mumbai,Electronics,3,3856.2,2026-03-26,11568.6,West
+1086,Hyderabad,Apparel,3,2043.11,2026-03-27,6129.33,South
+1087,Chennai,Home & Kitchen,5,4646.38,2026-03-28,23231.9,South
+1088,Hyderabad,Apparel,5,1391.1,2026-03-29,6955.5,South
+1089,Hyderabad,Home & Kitchen,5,4656.38,2026-03-30,23281.9,South
+1090,Pune,Electronics,4,3713.71,2026-03-31,14854.84,West
+1091,Hyderabad,Books,2,3617.95,2026-04-01,7235.9,South
+1092,Chennai,Books,2,4143.22,2026-04-02,8286.44,South
+1093,Chennai,Electronics,1,2534.47,2026-04-03,2534.47,South
+1094,Bangalore,Home & Kitchen,2,1437.37,2026-04-04,2874.74,South
+1095,Hyderabad,Electronics,1,2829.38,2026-04-05,2829.38,South
+1096,Chennai,Groceries,3,4679.32,2026-04-06,14037.96,South
+1097,Bangalore,Home & Kitchen,5,3935.05,2026-04-07,19675.25,South
+1098,Delhi,Apparel,3,424.47,2026-04-08,1273.41,North
+1099,Delhi,Groceries,4,1960.04,2026-04-09,7840.16,North
+1100,Chennai,Groceries,2,729.57,2026-04-10,1459.14,South
+1101,Pune,Books,5,3621.41,2026-04-11,18107.05,West
+1102,Delhi,Home & Kitchen,1,3358.28,2026-04-12,3358.28,North
+1103,Chennai,Electronics,4,3995.52,2026-04-13,15982.08,South
+1104,Pune,Books,4,359.17,2026-04-14,1436.68,West
+1105,Hyderabad,Home & Kitchen,4,3335.73,2026-04-15,13342.92,South
+1106,Hyderabad,Electronics,5,976.02,2026-04-16,4880.1,South
+1107,Pune,Home & Kitchen,2,3374.73,2026-04-17,6749.46,West
+1108,Bangalore,Groceries,2,4879.1,2026-04-18,9758.2,South
+1109,Pune,Apparel,3,653.24,2026-04-19,1959.72,West
+1110,Pune,Books,5,2863.62,2026-04-20,14318.1,West
+1111,Hyderabad,Books,2,4857.49,2026-04-21,9714.98,South
+1112,Chennai,Home & Kitchen,2,1978.84,2026-04-22,3957.68,South
+1113,Mumbai,Electronics,1,3551.85,2026-04-23,3551.85,West
+1114,Delhi,Books,4,1741.31,2026-04-24,6965.24,North
+1115,Pune,Books,1,2345.46,2026-04-25,2345.46,West
+1116,Hyderabad,Apparel,4,4702.44,2026-04-26,18809.76,South
+1117,Hyderabad,Books,3,451.27,2026-04-27,1353.81,South
+1118,Mumbai,Groceries,3,2326.72,2026-04-28,6980.16,West
+1119,Mumbai,Groceries,3,174.31,2026-04-29,522.93,West
+1120,Pune,Electronics,4,2702.01,2026-04-30,10808.04,West
+1121,Delhi,Home & Kitchen,2,3642.49,2026-05-01,7284.98,North
+1122,Bangalore,Apparel,5,4051.87,2026-05-02,20259.35,South
+1123,Hyderabad,Apparel,2,1797.63,2026-05-03,3595.26,South
+1124,Delhi,Books,5,3606.56,2026-05-04,18032.8,North
+1125,Hyderabad,Books,2,4178.47,2026-05-05,8356.94,South
+1126,Bangalore,Groceries,4,4588.76,2026-05-06,18355.04,South
+1127,Delhi,Apparel,3,1522.27,2026-05-07,4566.81,North
+1128,Chennai,Electronics,4,4080.28,2026-05-08,16321.12,South
+1129,Delhi,Electronics,1,1691.61,2026-05-09,1691.61,North
+1130,Hyderabad,Electronics,1,260.24,2026-05-10,260.24,South
+1131,Mumbai,Home & Kitchen,3,3986.07,2026-05-11,11958.21,West
+1132,Pune,Groceries,5,631.91,2026-05-12,3159.55,West
+1133,Delhi,Apparel,1,1402.63,2026-05-13,1402.63,North
+1134,Mumbai,Books,5,268.57,2026-05-14,1342.85,West
+1135,Pune,Home & Kitchen,5,3035.77,2026-05-15,15178.85,West
+1136,Mumbai,Electronics,5,688.0,2026-05-16,3440.0,West
+1137,Hyderabad,Apparel,1,2166.53,2026-05-17,2166.53,South
+1138,Mumbai,Groceries,5,1228.25,2026-05-18,6141.25,West
+1139,Bangalore,Books,3,3372.52,2026-05-19,10117.56,South
+1140,Hyderabad,Groceries,1,2155.19,2026-05-20,2155.19,South
+1141,Pune,Electronics,4,4472.44,2026-05-21,17889.76,West
+1142,Mumbai,Groceries,4,1391.27,2026-05-22,5565.08,West
+1143,Pune,Books,2,2935.12,2026-05-23,5870.24,West
+1144,Hyderabad,Books,1,577.99,2026-05-24,577.99,South
+1145,Chennai,Books,1,3089.34,2026-05-25,3089.34,South
+1146,Hyderabad,Apparel,4,1853.53,2026-05-26,7414.12,South
+1147,Mumbai,Home & Kitchen,5,4350.68,2026-05-27,21753.4,West
+1148,Chennai,Apparel,4,1660.72,2026-05-28,6642.88,South
+1149,Bangalore,Electronics,1,4174.69,2026-05-29,4174.69,South
+1150,Mumbai,Apparel,3,4744.04,2026-05-30,14232.12,West
+1151,Pune,Home & Kitchen,2,3519.89,2026-05-31,7039.78,West
+1152,Pune,Groceries,4,2469.19,2026-06-01,9876.76,West
+1153,Chennai,Electronics,3,1356.45,2026-06-02,4069.35,South
+1154,Hyderabad,Apparel,4,366.03,2026-06-03,1464.12,South
+1155,Bangalore,Electronics,2,462.84,2026-06-04,925.68,South
+1156,Chennai,Apparel,3,4868.23,2026-06-05,14604.69,South
+1157,Mumbai,Apparel,5,2119.11,2026-06-06,10595.55,West
+1158,Hyderabad,Home & Kitchen,5,2509.74,2026-06-07,12548.7,South
+1159,Hyderabad,Books,3,2997.43,2026-06-08,8992.29,South
+1160,Pune,Groceries,2,2671.27,2026-06-09,5342.54,West
+1161,Hyderabad,Home & Kitchen,2,3921.22,2026-06-10,7842.44,South
+1162,Pune,Home & Kitchen,5,3840.84,2026-06-11,19204.2,West
+1163,Delhi,Groceries,2,742.79,2026-06-12,1485.58,North
+1164,Mumbai,Groceries,3,1471.08,2026-06-13,4413.24,West
+1165,Chennai,Groceries,2,854.25,2026-06-14,1708.5,South
+1166,Chennai,Home & Kitchen,2,802.65,2026-06-15,1605.3,South
+1167,Delhi,Electronics,3,3213.85,2026-06-16,9641.55,North
+1168,Hyderabad,Home & Kitchen,1,1207.07,2026-06-17,1207.07,South
+1169,Bangalore,Apparel,1,4167.13,2026-06-18,4167.13,South
+1170,Pune,Home & Kitchen,4,4451.81,2026-06-19,17807.24,West
+1171,Chennai,Books,3,1435.36,2026-06-20,4306.08,South
+1172,Pune,Books,2,3786.25,2026-06-21,7572.5,West
+1173,Bangalore,Apparel,1,1421.44,2026-06-22,1421.44,South
+1174,Pune,Home & Kitchen,5,338.12,2026-06-23,1690.6,West
+1175,Mumbai,Books,4,3671.91,2026-06-24,14687.64,West
+1176,Pune,Apparel,5,1977.1,2026-06-25,9885.5,West
+1177,Bangalore,Home & Kitchen,5,4905.33,2026-06-26,24526.65,South
+1178,Hyderabad,Groceries,5,3288.26,2026-06-27,16441.3,South
+1179,Chennai,Electronics,1,1160.36,2026-06-28,1160.36,South
+1180,Pune,Books,3,2397.45,2026-06-29,7192.35,West
+1181,Mumbai,Apparel,2,619.48,2026-06-30,1238.96,West
+1182,Delhi,Apparel,4,4921.85,2026-07-01,19687.4,North
+1183,Bangalore,Electronics,5,1476.45,2026-07-02,7382.25,South
+1184,Delhi,Groceries,3,1310.11,2026-07-03,3930.33,North
+1185,Bangalore,Books,1,101.33,2026-07-04,101.33,South
+1186,Delhi,Apparel,4,3725.94,2026-07-05,14903.76,North
+1187,Mumbai,Apparel,1,3635.14,2026-07-06,3635.14,West
+1188,Mumbai,Apparel,4,3127.03,2026-07-07,12508.12,West
+1189,Pune,Home & Kitchen,4,901.0,2026-07-08,3604.0,West
+1190,Pune,Books,1,2818.71,2026-07-09,2818.71,West
+1191,Chennai,Home & Kitchen,1,1606.5,2026-07-10,1606.5,South
+1192,Mumbai,Electronics,1,4893.63,2026-07-11,4893.63,West
+1193,Bangalore,Apparel,5,3919.65,2026-07-12,19598.25,South
+1194,Bangalore,Apparel,3,279.62,2026-07-13,838.86,South
+1195,Mumbai,Electronics,5,739.66,2026-07-14,3698.3,West
+1196,Mumbai,Apparel,3,870.17,2026-07-15,2610.51,West
+1197,Mumbai,Electronics,1,1820.5,2026-07-16,1820.5,West
+1198,Pune,Apparel,1,205.71,2026-07-17,205.71,West
+1199,Chennai,Electronics,4,750.93,2026-07-18,3003.72,South
+1200,Delhi,Home & Kitchen,4,1174.83,2026-07-19,4699.32,North
