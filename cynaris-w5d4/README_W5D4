@@ -1,0 +1,70 @@
+# W5D4: Semantic Search with ChromaDB
+
+Hands-on work for Week 5 Day 4. Builds a local vector store with ChromaDB, embeds documents with Ollama, runs cosine similarity search with metadata filtering, and uses retrieved PDF chunks to ground an LLM answer (a basic RAG pipeline). Day 4 extends the Day 3 work with a semantic vs keyword search comparison, a similarity threshold, and combined metadata filters.
+
+## What's in this repo
+
+| File                 | Purpose                                                                                         |
+| -------------------- | ----------------------------------------------------------------------------------------------- |
+| `ingest_docs.py`     | Creates a cosine collection, embeds 20 documents, runs similarity search and metadata filtering |
+| `pdf_rag.py`         | Chunks a PDF, stores the chunks, retrieves the top 3 and asks the LLM                           |
+| `semantic_search.py` | Compares keyword vs semantic search, applies a similarity threshold, and uses combined filters  |
+| `sample.pdf`         | PDF used for the retrieval demo                                                                 |
+
+## Setup
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate           # Mac/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+
+ollama pull nomic-embed-text     # embedding model
+ollama pull llama3.2             # chat model
+```
+
+Ollama must be running locally.
+
+## Usage
+
+```bash
+python ingest_docs.py                                  # Tasks 1 and 2
+python pdf_rag.py sample.pdf "your question"           # Task 3
+python semantic_search.py                              # Day 4 extension
+python semantic_search.py "your own query"
+```
+
+## How it works
+
+1. **Collection:** created with `metadata={"hnsw:space": "cosine"}`. Chroma defaults to L2 distance, so cosine must be set at creation.
+2. **Embedding:** each text is embedded with `nomic-embed-text` via Ollama and stored with its document and metadata (`category`). Scripts use `upsert`, so re-running is safe.
+3. **Similarity search:** the query is embedded the same way. Chroma returns cosine distance, so similarity = `1 - distance`.
+4. **Metadata filtering:** `where={"category": "ml"}` restricts the search. `semantic_search.py` also uses `$in`, `$and` and `$ne`.
+5. **PDF retrieval:** text is split per page into 800-character chunks with 150 overlap. The top 3 chunks for a question go to `llama3.2` with an instruction to answer only from that context.
+6. **Semantic vs keyword:** a word-overlap baseline is compared against embedding search. A similarity threshold (0.50) drops weak matches.
+
+## Results and verification
+
+- Collection count: 20 documents
+- Query `"How do models learn from data?"` returned "Overfitting happens when a model memorizes training data instead of generalizing" (sim 0.680) and "Neural networks learn by adjusting weights through backpropagation" (sim 0.606). Both are ML documents about model training. Rank 3 (MLflow, sim 0.576) is a weaker match on the word "model".
+- With `category = geography`, all 3 results were geography documents (sim 0.37 to 0.41), much lower than the unfiltered matches, so the filter works and excludes the relevant ML documents.
+- PDF question `"What is the main topic of this document?"` was answered correctly: an intelligent banking assistant using RAG over internal documentation to streamline HR workload. Top-3 chunks came from pages 2 and 5; the answer was checked against page 2 (Problem Formulation).
+- Semantic vs keyword: for "How does a machine improve itself over time?", keyword overlap was 0 for every document, while semantic search returned ML documents (overfitting 0.562, neural networks 0.542). For "Where can I find the tallest peak?", keyword search missed Mount Everest (its only hit was the word "where" in an unrelated document), while semantic search ranked Everest first (0.715). Semantic search also let in some weak matches, such as a CI pipeline document for the first query.
+- Threshold: at 0.50, 1 of 5 results was dropped for query 1, 3 of 5 for query 2 and 2 of 5 for query 3. Unrelated documents tied at 0.470, which shows the noise floor of this embedding model, so the threshold value is model-specific.
+- Out-of-scope question `"Who won the 2010 FIFA World Cup?"` returned "I don't know based on the document.", so the model stays grounded in the retrieved context.
+
+## Notes and trade-offs
+
+- Chunk size and overlap affect retrieval quality. Overlap stops sentences being cut at chunk boundaries.
+- Small embedding models can rank short sentences unexpecte.mddly (for example MLflow ranking third for a "models learn" query because of the word "model").
+- ChromaDB is simple to set up and supports persistence and metadata filtering. FAISS is faster at very large scale but needs you to manage storage and metadata yourself.
+
+## Self-review checklist
+
+- [x] Code runs from a clean environment
+- [x] Collection uses cosine distance
+- [x] 20 documents embedded, with metadata
+- [x] Similarity search and metadata filter verified manually
+- [x] PDF retrieval returns sensible top-3 chunks
+- [x] LLM answer checked against the source PDF
+- [x] Semantic vs keyword comparison reviewed by eye
+- [x] `chroma_db/` and `.venv/` are in `.gitignore`
