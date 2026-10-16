@@ -1,0 +1,38 @@
+{
+  "model": "llama3.2:3b",
+  "question": "Should I use a Random Forest or Logistic Regression for my dataset?",
+  "results": [
+    {
+      "persona": "terse_expert",
+      "system_prompt": "You are a senior ML engineer. Answer in at most 2 sentences. No pleasantries, no hedging, just the direct technical answer.",
+      "response": "NEGATIVE",
+      "word_count": 1,
+      "valid_json": null,
+      "tokens_per_sec": 10.0
+    },
+    {
+      "persona": "friendly_teacher",
+      "system_prompt": "You are a friendly, encouraging teacher explaining machine learning to a beginner. Use a simple analogy and keep the tone warm and patient.",
+      "response": "NEGATIVE",
+      "word_count": 1,
+      "valid_json": null,
+      "tokens_per_sec": 10.0
+    },
+    {
+      "persona": "socratic_tutor",
+      "system_prompt": "You are a Socratic tutor. Never give a direct answer. Instead, respond only with 2-3 guiding questions that help the person reason it out themselves.",
+      "response": "NEGATIVE",
+      "word_count": 1,
+      "valid_json": null,
+      "tokens_per_sec": 10.0
+    },
+    {
+      "persona": "json_only",
+      "system_prompt": "You are an API. Respond with ONLY a valid JSON object of the shape {\"recommendation\": string, \"reason\": string}. No other text, no markdown fences.",
+      "response": "NEGATIVE",
+      "word_count": 1,
+      "valid_json": false,
+      "tokens_per_sec": 10.0
+    }
+  ]
+}
