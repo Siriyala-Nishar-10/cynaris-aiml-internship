@@ -16,6 +16,9 @@ Each day is developed on a separate branch and submitted via Pull Request.
 
 ```
 cynaris-aiml-internship/
+├── .github/
+│   └── workflows/
+│       └── ci.yml                 # CI/CD (W8D1): lint → test → build image → push to GHCR
 ├── numpy_fundamentals.py          # W1D1: NumPy Fundamentals
 ├── student_performance.csv
 ├── README.md                      # (this file, on main)
@@ -271,7 +274,7 @@ cynaris-aiml-internship/
 |   │   └── dense_results.csv
 |   └── README_W7D1.md
 │
-├── cynaris-w7d2/                  # W7D2: Haystack PDF RAG Pipeline & Evaluation
+├── cynaris-w7d2/                  # W7D2: Haystack PDF RAG Pipeline & Evaluation (BM25, Dense, Hybrid)
 │   ├── haystack_pipeline.py
 │   ├── evaluate.py
 │   ├── questions.txt
@@ -287,8 +290,8 @@ cynaris-aiml-internship/
 |   ├── summarise.py
 |   ├── questions.txt
 |   ├── results/
-|   │   ├── memory results CSV
-|   │   └── chroma results CSV
+|   │   ├── memory_results.csv
+|   │   └── chroma_results.csv
 |   └── README_W7D3.md
 |
 ├── cynaris-w7d4/                  # W7D4: LlamaIndex + Ollama — Local RAG
@@ -300,19 +303,40 @@ cynaris-aiml-internship/
 │   ├── .gitignore
 │   └── README_W7D4.md
 │
-└── cynaris-w7d5/                  # W7D5 Project: Multi-document RAG System
-    ├── multi_doc_rag.py
-    ├── pdf_to_txt.py
-    ├── summarise.py
-    ├── utils.py
-    ├── questions.txt
-    ├── requirements.txt
-    ├── data/
-    ├── pdfs/
+├── cynaris-w7d5/                  # W7D5 Project: Multi-document RAG System
+│   ├── multi_doc_rag.py
+│   ├── pdf_to_txt.py
+│   ├── summarise.py
+│   ├── utils.py
+│   ├── questions.txt
+│   ├── requirements.txt
+│   ├── data/
+│   ├── pdfs/
+│   ├── tests/
+│   ├── results/
+│   ├── README_W7D5.md
+│   └── .gitignore
+│
+└── cynaris-w8d1/                  # W8D1: Production RAG — Dockerised API, CI/CD & Monitoring
+    ├── app/
+    │   ├── main.py
+    │   └── rag.py
     ├── tests/
-    ├── results/
-    ├── README_W7D5.md
-    └── .gitignore
+    │   └── test_api.py
+    ├── docs/
+    │   ├── docker_run.png
+    │   ├── docker_desktop.png
+    │   └── actions_green.png
+    ├── Dockerfile
+    ├── .dockerignore
+    ├── MONITORING.md
+    ├── pytest.ini
+    ├── ruff.toml
+    ├── requirements.txt
+    ├── requirements-rag.txt
+    ├── requirements-dev.txt
+    ├── .gitignore
+    └── README_W8D1.md
 
 
 ```
@@ -322,6 +346,11 @@ Each day's work is committed on its own branch
 (`feat/aiml-W{week}-siriyala-d{day}`) and submitted as a Pull Request
 against `main`, following Cynaris's Git workflow standards: descriptive
 commit messages, minimum 2 commits per task, and documented output evidence.
+
+From Week 8 Day 1, a GitHub Actions pipeline (`.github/workflows/ci.yml`)
+runs on every push to a `feat/**` branch that touches `cynaris-w8d1/`:
+lint (ruff) → test (pytest) → build the Docker image → push it to GitHub
+Container Registry.
 
 ## Progress Log
 | Week | Day | Topic                                       | Status                  |
@@ -359,10 +388,11 @@ commit messages, minimum 2 commits per task, and documented output evidence.
 | 6    | D4  | RAG Pipeline — LangChain + ChromaDB         | ✅ Complete (PR raised)  |
 | 6    | D5  | Week 6 Project: Document Chatbot with LangChain | ✅ Complete (PR raised) |
 | 7    | D1  | Haystack Pipeline Architecture (BM25 vs Dense Retrieval) | ✅ Complete (PR raised)  |
-| 7    | D2  | Haystack PDF RAG Pipeline & Evaluation | ✅ Complete (PR raised)  |
+| 7    | D2  | Haystack PDF RAG Pipeline & Evaluation (BM25, Dense, Hybrid) | ✅ Complete (PR raised)  |
 | 7    | D3  | LlamaIndex RAG — Memory vs ChromaDB Vector Stores | ✅ Complete (PR raised)  |
 | 7    | D4  | LlamaIndex + Ollama — Local RAG | ✅ Complete (PR raised)  |
-| 7    | D4  | Week 7 Project: Multi-document RAG System | ✅ Complete (PR raised)  |
+| 7    | D5  | Week 7 Project: Multi-document RAG System | ✅ Complete (PR raised)  |
+| 8    | D1  | Production RAG — Dockerised API, CI/CD & Monitoring | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
