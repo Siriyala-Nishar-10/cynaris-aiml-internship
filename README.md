@@ -317,26 +317,39 @@ cynaris-aiml-internship/
 │   ├── README_W7D5.md
 │   └── .gitignore
 │
-└── cynaris-w8d1/                  # W8D1: Production RAG — Dockerised API, CI/CD & Monitoring
-    ├── app/
-    │   ├── main.py
-    │   └── rag.py
-    ├── tests/
-    │   └── test_api.py
-    ├── docs/
-    │   ├── docker_run.png
-    │   ├── docker_desktop.png
-    │   └── actions_green.png
-    ├── Dockerfile
-    ├── .dockerignore
-    ├── MONITORING.md
-    ├── pytest.ini
-    ├── ruff.toml
-    ├── requirements.txt
-    ├── requirements-rag.txt
-    ├── requirements-dev.txt
-    ├── .gitignore
-    └── README_W8D1.md
+├── cynaris-w8d1/                  # W8D1: Production RAG — Dockerised API, CI/CD & Monitoring
+|   ├── app/
+|   │   ├── main.py
+|   │   └── rag.py
+|   ├── tests/
+|   │   └── test_api.py
+|   ├── docs/
+|   │   ├── docker_run.png
+|   │   ├── docker_desktop.png
+|   │   └── actions_green.png
+|   ├── Dockerfile
+|   ├── .dockerignore
+|   ├── MONITORING.md
+|   ├── pytest.ini
+|   ├── ruff.toml
+|   ├── requirements.txt
+|   ├── requirements-rag.txt
+|   ├── requirements-dev.txt
+|   ├── .gitignore
+|   └── README_W8D1.md
+│
+└── cynaris-w8d2/         W8D2: RAG Evaluation with Ragas Framework         
+    ├── data                      
+    ├── results                   
+    ├── tests                    
+    ├── .gitignore                
+    ├── compare.py                 
+    ├── compat.py                
+    ├── evaluate_ragas.py          
+    ├── qa_pairs.json              
+    ├── rag_pipeline.py           
+    ├── utils.py                   
+    └── README_W8D2.md             
 
 
 ```
@@ -393,6 +406,7 @@ Container Registry.
 | 7    | D4  | LlamaIndex + Ollama — Local RAG | ✅ Complete (PR raised)  |
 | 7    | D5  | Week 7 Project: Multi-document RAG System | ✅ Complete (PR raised)  |
 | 8    | D1  | Production RAG — Dockerised API, CI/CD & Monitoring | ✅ Complete (PR raised)  |
+| 8    | D2  | RAG Evaluation with Ragas Framework | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
