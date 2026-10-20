@@ -1,0 +1,24 @@
+{
+  "means": {
+    "faithfulness": 0.5,
+    "answer_relevancy": null,
+    "context_precision": null,
+    "context_recall": 1.0
+  },
+  "valid_counts": {
+    "faithfulness": 2,
+    "answer_relevancy": 0,
+    "context_precision": 0,
+    "context_recall": 1
+  },
+  "n_questions": 2,
+  "label": "smoke",
+  "chunk_size": 1000,
+  "k": 3,
+  "chunks": 209,
+  "llm": "llama3.2",
+  "judge": "llama3.2",
+  "embed": "nomic-embed-text",
+  "rag_answer_seconds": 63.6,
+  "lowest_metric": "faithfulness"
+}
