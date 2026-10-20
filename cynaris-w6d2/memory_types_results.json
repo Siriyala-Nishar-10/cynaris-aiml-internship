@@ -1,0 +1,112 @@
+{
+  "model": "llama3.2:3b",
+  "window": 4,
+  "strategies": [
+    {
+      "strategy": "buffer",
+      "context_chars_per_turn": [
+        86,
+        254,
+        491,
+        796,
+        1105,
+        1394,
+        1658,
+        1944,
+        2202,
+        2273
+      ],
+      "recall": {
+        "9": true,
+        "10": true
+      },
+      "answers": [
+        "Nice to meet you, Siriyala! I'm here to help with any questions or information you might need, so feel free to ask me anything.",
+        "That sounds like a great project, Siriyala! What specific aspects of the bot are you struggling with or would like some guidance on, such as natural language processing or database integration?",
+        "Python is a popular and versatile language, well-suited for tasks like natural language processing and machine learning, which are often used in support-ticket triage bots. Are you using a specific library or framework, such as NLTK or scikit-learn, to build your bot?",
+        "Ollama is a Python-based framework for building conversational AI models, which could be a good fit for your support-ticket triage bot. Have you explored its capabilities for text classification and sentiment analysis, which are common tasks in ticket triage?",
+        "A vector database is a type of database that stores and indexes data as dense vectors, allowing for efficient similarity searches and nearest neighbor queries, often used in applications like recommendation systems and natural language processing.",
+        "Cosine similarity is a measure of the similarity between two vectors in a multi-dimensional space, calculated as the dot product of the vectors divided by the product of their magnitudes, indicating the angle between them.",
+        "Semantic caching is a technique that uses machine learning and natural language processing to cache and retrieve relevant data, such as text or entities, based on the context and intent of a query, rather than relying solely on keyword matching.",
+        "RAG (Relevance-based Answer Generation) is a technique used in natural language processing to generate answers to user queries by ranking and selecting relevant passages or documents from a large corpus, based on their relevance to the query.",
+        "Your name is Siriyala.",
+        "You're building a support-ticket triage bot, and your favorite programming language is Python."
+      ],
+      "summary": "",
+      "seconds": 40.0
+    },
+    {
+      "strategy": "window",
+      "context_chars_per_turn": [
+        86,
+        254,
+        467,
+        604,
+        698,
+        700,
+        646,
+        614,
+        533,
+        352
+      ],
+      "recall": {
+        "9": false,
+        "10": false
+      },
+      "answers": [
+        "Nice to meet you, Siriyala! I'm here to help with any questions or information you might need, so feel free to ask me anything.",
+        "That sounds like a great project, Siriyala! What specific aspects of the bot are you struggling with or would like some guidance on, such as natural language processing or database integration?",
+        "Python is a popular and versatile language, well-suited for tasks like natural language processing and machine learning, which are often used in support-ticket triage bots. Are you using a specific library or framework, such as NLTK or scikit-learn, to build your bot?",
+        "Ollama is a great tool for running and managing local development environments, allowing you to easily switch between different projects and versions of your code. Have you encountered any issues or challenges while using Ollama, or is there anything specific you'd like help with?",
+        "A vector database is a type of database that stores and indexes large amounts of data as dense vectors, allowing for efficient similarity searches and nearest neighbor queries, often used in applications like search, recommendation, and natural language processing.",
+        "Cosine similarity is a measure of similarity between two vectors that represents the cosine of the angle between them, indicating the degree to which one vector is aligned with another, with higher values indicating greater similarity.",
+        "Semantic caching is a technique that uses machine learning and natural language processing to cache and retrieve relevant data, rather than just caching the raw data, to improve the accuracy and relevance of the retrieved information.",
+        "RAG (Resource Allocation Graph) is a data structure used in distributed systems to manage and optimize resource allocation, particularly in cloud computing and big data processing.",
+        "I don't have any information about your name.",
+        "I don't have any information about what you're building or your preferred programming language."
+      ],
+      "summary": "",
+      "seconds": 55.7
+    },
+    {
+      "strategy": "summary",
+      "context_chars_per_turn": [
+        86,
+        254,
+        608,
+        738,
+        718,
+        696,
+        726,
+        925,
+        1091,
+        1115
+      ],
+      "recall": {
+        "9": true,
+        "10": true
+      },
+      "answers": [
+        "Nice to meet you, Siriyala! I'm here to help with any questions or information you might need, so feel free to ask me anything.",
+        "That sounds like a great project, Siriyala! What specific aspects of the bot are you struggling with or would like some guidance on, such as natural language processing or database integration?",
+        "Python is a popular and versatile language, well-suited for many tasks, including natural language processing and machine learning, which might be useful for your support-ticket triage bot.",
+        "It sounds like you're using Docker to run your applications locally, which is a great way to isolate and manage dependencies, especially for a project like a support-ticket triage bot.",
+        "A vector database is a type of database that stores and indexes data as dense vectors in a high-dimensional space, allowing for efficient similarity searches and nearest neighbor queries.",
+        "Cosine similarity measures the degree of similarity between two vectors by calculating the cosine of the angle between them, with higher values indicating more similar vectors.",
+        "Semantic caching is a technique that uses machine learning and natural language processing to cache and retrieve relevant data, rather than simply caching the raw data, to improve the accuracy and relevance of the cached results.",
+        "RAG (Relevance-Aware Graph) is a data structure that combines graph and ranking algorithms to efficiently rank and retrieve relevant nodes or edges in a graph, often used in applications like search and recommendation systems.",
+        "I don't have that information. You are referred to as \"Siriyala\" in our earlier conversation, but I don't have any personal knowledge about you.",
+        "You're building a support-ticket triage bot, and your preferred programming language is Python."
+      ],
+      "summary": "Here is the updated summary: Siriyala is a user building a support-ticket triage bot, prefers Python, uses Ollama for local setup, and uses Docker for local application management. The user is learning about vector databases and cosine similarity, a measure of similarity between two vectors based on the cosine of the angle between them. The user is also interested in semantic caching, a concept that enables faster data retrieval by storing frequently accessed data in a cache, and is familiar with RAG (Rapid Application Generator), a tool used for generating boilerplate code.",
+      "seconds": 117.2
+    }
+  ],
+  "persistence": {
+    "thread": "persist-1791260368",
+    "saved": 2,
+    "loaded": 2,
+    "answer": "Your name is Siriyala, and you like Python.",
+    "passed": true
+  }
+}
