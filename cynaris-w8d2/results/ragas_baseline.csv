@@ -1,0 +1,11 @@
+q_id,question,answer,faithfulness,answer_relevancy,context_precision,context_recall
+1,What precision did GrowWise SME achieve compared to the keyword-based approach?,I do not know.,0.5,,,0.05555555555555555
+2,Which techniques does GrowWise SME use to match a user query with financial schemes?,TF-IDF and Cosine Similarity.,1.0,,,
+3,How many mushroom species did the CNN model classify and what test accuracy did it reach?,"The CNN model classified 103 mushroom species. The test accuracy was not explicitly stated, but the text mentions that the model achieved a 4.4% and 3.6% increase in accuracy compared to other approaches, and that the accuracy from the training and validation datasets is shown in Figure 5.",,,,1.0
+4,What technique was used to help the mushroom CNN avoid overfitting?,I do not know.,0.0,,0.9999999999666667,1.0
+5,Which document splitter was selected for the PDF documents in the banking RAG framework?,I do not know.,0.6666666666666666,,,0.6666666666666666
+6,What proportion of fully correct answers did the proposed banking RAG system reach?,~85%,1.0,,0.9999999999666667,0.11764705882352941
+7,What share of finance leaders surveyed by Wolters Kluwer had already adopted agentic AI?,6% of finance leaders surveyed by Wolters Kluwer had already adopted agentic AI.,1.0,,,0.5
+8,How much did hybrid AI-human tax teams reduce Schedule K-1 production time?,One day.,,,,1.0
+9,How many raw discrepancies did QuickSight flag compared with the manual process?,203.,1.0,,,
+10,Why did experienced analysts resist the AI reconciliation tool's findings?,"Experienced analysts resisted the AI reconciliation tool's findings because their professional identity was tied to the judgments the tool appeared to challenge, resulting in ""algorithm aversion.""",0.0,,0.9999999999666667,1.0
