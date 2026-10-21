@@ -338,18 +338,35 @@ cynaris-aiml-internship/
 |   ├── .gitignore
 |   └── README_W8D1.md
 │
-└── cynaris-w8d2/         W8D2: RAG Evaluation with Ragas Framework         
-    ├── data                      
-    ├── results                   
-    ├── tests                    
-    ├── .gitignore                
-    ├── compare.py                 
-    ├── compat.py                
-    ├── evaluate_ragas.py          
-    ├── qa_pairs.json              
-    ├── rag_pipeline.py           
-    ├── utils.py                   
-    └── README_W8D2.md             
+├── cynaris-w8d2/                  # W8D2: RAG Evaluation with Ragas Framework
+│   ├── data/
+│   ├── results/
+│   ├── tests/
+│   ├── .gitignore
+│   ├── compare.py
+│   ├── compat.py
+│   ├── evaluate_ragas.py
+│   ├── qa_pairs.json
+│   ├── rag_pipeline.py
+│   ├── utils.py
+│   └── README_W8D2.md
+│
+└── cynaris-w8d3/                  # W8D3: Deployment — Haystack Search API on Railway
+    ├── app/
+    ├── sample_docs/
+    ├── tests/
+    ├── docs/
+    │   └── local_search.png
+    ├── Dockerfile
+    ├── .dockerignore
+    ├── railway.json
+    ├── pytest.ini
+    ├── ruff.toml
+    ├── requirements.txt
+    ├── requirements-dev.txt
+    ├── requirements-dense.txt
+    ├── .gitignore
+    └── README_W8D3.md         
 
 
 ```
@@ -407,6 +424,8 @@ Container Registry.
 | 7    | D5  | Week 7 Project: Multi-document RAG System | ✅ Complete (PR raised)  |
 | 8    | D1  | Production RAG — Dockerised API, CI/CD & Monitoring | ✅ Complete (PR raised)  |
 | 8    | D2  | RAG Evaluation with Ragas Framework | ✅ Complete (PR raised)  |
+| 8    | D3  | Deployment — Haystack Search API on Railway | 🟡 PR raised (Railway deploy pending: builds incident) |
+
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
