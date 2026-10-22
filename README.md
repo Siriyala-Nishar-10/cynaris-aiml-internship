@@ -351,22 +351,41 @@ cynaris-aiml-internship/
 │   ├── utils.py
 │   └── README_W8D2.md
 │
-└── cynaris-w8d3/                  # W8D3: Deployment — Haystack Search API on Railway
+├── cynaris-w8d3/                  # W8D3: Deployment — Haystack Search API on Railway
+|   ├── app/
+|   ├── sample_docs/
+|   ├── tests/
+|   ├── docs/
+|   │   └── local_search.png
+|   ├── Dockerfile
+|   ├── .dockerignore
+|   ├── railway.json
+|   ├── pytest.ini
+|   ├── ruff.toml
+|   ├── requirements.txt
+|   ├── requirements-dev.txt
+|   ├── requirements-dense.txt
+|   ├── .gitignore
+|   └── README_W8D3.md
+|   └── README_W8D3.md
+│
+└── cynaris-w8d4/                  # W8D4: Code review, test expansion and documentation for the Haystack search API
     ├── app/
+    ├── docs/
     ├── sample_docs/
     ├── tests/
-    ├── docs/
-    │   └── local_search.png
-    ├── Dockerfile
+    ├── .coverage
     ├── .dockerignore
-    ├── railway.json
-    ├── pytest.ini
-    ├── ruff.toml
-    ├── requirements.txt
-    ├── requirements-dev.txt
-    ├── requirements-dense.txt
     ├── .gitignore
-    └── README_W8D3.md         
+    ├── CODE_REVIEW.md
+    ├── Dockerfile
+    ├── pytest.ini
+    ├── railway.json
+    ├── README_W8D4.md
+    ├── requirements-dense.txt
+    ├── requirements-dev.txt
+    ├── requirements.txt
+    └── ruff.toml       
 
 
 ```
@@ -425,6 +444,7 @@ Container Registry.
 | 8    | D1  | Production RAG — Dockerised API, CI/CD & Monitoring | ✅ Complete (PR raised)  |
 | 8    | D2  | RAG Evaluation with Ragas Framework | ✅ Complete (PR raised)  |
 | 8    | D3  | Deployment — Haystack Search API on Railway | 🟡 PR raised (Railway deploy pending: builds incident) |
+| 8    | D4  | Code review, test expansion and documentation for the Haystack search API | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
