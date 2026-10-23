@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research Assistant</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --text: #1c2430; --muted: #6a7585;
+    --line: #e1e5ea; --accent: #2f5fd0; --accent-text: #ffffff;
+    --ok: #1f7a45; --warn: #a15c00; --err: #b3261e; --chip: #eef2fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12161c; --panel: #1b212a; --text: #e6eaf0; --muted: #96a0ae;
+      --line: #2b3441; --accent: #6b93f0; --accent-text: #0e1420;
+      --ok: #5fcf8e; --warn: #f0b35a; --err: #f2867e; --chip: #232d3f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  header h1 { margin: 0; font-size: 17px; }
+  header small { color: var(--muted); }
+  .layout { display: grid; grid-template-columns: 300px 1fr; gap: 16px;
+            max-width: 1100px; margin: 16px auto; padding: 0 16px; }
+  @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+  .card h2 { margin: 0 0 10px; font-size: 13px; text-transform: uppercase;
+             letter-spacing: .05em; color: var(--muted); }
+  .stack > * + * { margin-top: 14px; }
+  input[type=text], textarea { width: 100%; padding: 9px 10px; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--bg); color: var(--text); font: inherit; }
+  textarea { resize: vertical; min-height: 84px; }
+  button { padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line);
+           background: var(--panel); color: var(--text); font: inherit; cursor: pointer; }
+  button.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+  button:disabled { opacity: .55; cursor: wait; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 8px; }
+  .muted { color: var(--muted); font-size: 13px; }
+  .files { margin: 8px 0 0; padding: 0; list-style: none; font-size: 13px; max-height: 140px; overflow: auto; }
+  .files li { padding: 2px 0; word-break: break-all; }
+  .answer { white-space: pre-wrap; }
+  .cite { background: var(--chip); border-radius: 4px; padding: 0 4px; font-weight: 600; }
+  .metrics { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 3px 10px; font-size: 12.5px; }
+  details { border-top: 1px solid var(--line); padding: 8px 0; }
+  details:first-of-type { margin-top: 12px; }
+  summary { cursor: pointer; font-size: 13.5px; }
+  .src-text { white-space: pre-wrap; font-size: 13px; color: var(--muted); margin-top: 6px; }
+  .msg { font-size: 13px; margin-top: 8px; }
+  .msg.err { color: var(--err); } .msg.ok { color: var(--ok); }
+  .spinner { display: inline-block; width: 12px; height: 12px; border: 2px solid var(--line);
+             border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite;
+             vertical-align: -2px; margin-right: 6px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Local AI Research Assistant</h1>
+  <small id="models">Connecting…</small>
+</header>
+
+<div class="layout">
+  <aside class="stack">
+    <section class="card">
+      <h2>Knowledge base</h2>
+      <div id="count" class="muted">Loading…</div>
+      <ul id="files" class="files"></ul>
+      <div class="row"><button id="clear">Clear all</button></div>
+    </section>
+
+    <section class="card">
+      <h2>Add documents</h2>
+      <input id="picker" type="file" accept=".txt,.md" multiple>
+      <div class="row"><button id="upload" class="primary">Upload &amp; index</button></div>
+      <p class="muted" style="margin:12px 0 6px">Or index a folder on this computer:</p>
+      <input id="folder" type="text" placeholder="/path/to/notes">
+      <div class="row"><button id="ingest">Index folder</button></div>
+      <div id="addmsg" class="msg"></div>
+    </section>
+  </aside>
+
+  <main class="stack">
+    <section class="card">
+      <h2>Ask a question</h2>
+      <textarea id="question" placeholder="What are the key findings in my documents?"></textarea>
+      <div class="row">
+        <button id="ask" class="primary">Ask</button>
+        <label class="muted"><input id="eval" type="checkbox"> Score with Ragas (slower)</label>
+      </div>
+      <div id="askmsg" class="msg"></div>
+    </section>
+
+    <section class="card" id="result" hidden>
+      <h2>Answer</h2>
+      <div id="answer" class="answer"></div>
+      <div id="metrics" class="metrics"></div>
+      <div id="sources"></div>
+    </section>
+  </main>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+async function api(path, body) {
+  const res = await fetch(path, body === undefined ? {} : {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || "Request failed");
+  return data;
+}
+
+function setMsg(el, text, kind) { el.textContent = text; el.className = "msg " + (kind || ""); }
+function busy(btn, on, label) { btn.disabled = on; if (label) btn.dataset.label = btn.dataset.label || btn.textContent;
+  btn.textContent = on ? label : (btn.dataset.label || btn.textContent); }
+
+function renderStatus(s) {
+  $("models").textContent = "Chat: " + s.chat_model + " · Embeddings: " + s.embed_model;
+  $("count").textContent = s.chunks + " chunks from " + s.files.length + " file(s)";
+  $("files").replaceChildren(...s.files.map((f) => { const li = document.createElement("li"); li.textContent = f; return li; }));
+}
+
+// Render the answer as text, highlighting [n] citations without using innerHTML.
+function renderAnswer(text) {
+  const box = $("answer"); box.replaceChildren();
+  text.split(/(\[\d+\])/g).forEach((part) => {
+    if (/^\[\d+\]$/.test(part)) { const s = document.createElement("span"); s.className = "cite"; s.textContent = part; box.append(s); }
+    else box.append(document.createTextNode(part));
+  });
+}
+
+async function refresh() {
+  try { renderStatus(await api("/api/status")); }
+  catch (e) { $("models").textContent = "Server not reachable"; }
+}
+
+$("upload").onclick = async () => {
+  const files = [...$("picker").files];
+  if (!files.length) return setMsg($("addmsg"), "Choose one or more .txt or .md files first.", "err");
+  busy($("upload"), true, "Indexing…"); setMsg($("addmsg"), "Embedding with Ollama…");
+  try {
+    const payload = await Promise.all(files.map(async (f) => ({ name: f.name, text: await f.text() })));
+    const r = await api("/api/upload", { files: payload });
+    renderStatus(r); setMsg($("addmsg"), "Added " + r.added + " chunks.", "ok"); $("picker").value = "";
+  } catch (e) { setMsg($("addmsg"), e.message, "err"); }
+  busy($("upload"), false);
+};
+
+$("ingest").onclick = async () => {
+  busy($("ingest"), true, "Indexing…"); setMsg($("addmsg"), "Embedding with Ollama…");
+  try {
+    const r = await api("/api/ingest", { folder: $("folder").value.trim() });
+    renderStatus(r); setMsg($("addmsg"), "Added " + r.added + " chunks.", "ok");
+  } catch (e) { setMsg($("addmsg"), e.message, "err"); }
+  busy($("ingest"), false);
+};
+
+$("clear").onclick = async () => {
+  if (!confirm("Remove everything from the knowledge base?")) return;
+  renderStatus(await api("/api/clear", {})); setMsg($("addmsg"), "Knowledge base cleared.", "ok");
+};
+
+async function ask() {
+  const question = $("question").value.trim();
+  if (!question) return setMsg($("askmsg"), "Please enter a question.", "err");
+  busy($("ask"), true, "Thinking…");
+  $("askmsg").replaceChildren(Object.assign(document.createElement("span"), { className: "spinner" }),
+    document.createTextNode($("eval").checked ? "Researching and scoring…" : "Researching…"));
+  $("askmsg").className = "msg";
+  try {
+    const r = await api("/api/ask", { question, evaluate: $("eval").checked });
+    renderAnswer(r.answer);
+    const chips = ["Latency " + r.latency_s + " s", r.sources.length + " sources"];
+    Object.entries(r.scores).forEach(([k, v]) => chips.push(k.replace("_", " ") + " " + v.toFixed(2)));
+    $("metrics").replaceChildren(...chips.map((c) => Object.assign(document.createElement("span"), { className: "chip", textContent: c })));
+    $("sources").replaceChildren(...r.sources.map((s, i) => {
+      const d = document.createElement("details"), sm = document.createElement("summary"), p = document.createElement("div");
+      sm.textContent = "[" + (i + 1) + "] " + s.file; p.className = "src-text"; p.textContent = s.text;
+      d.append(sm, p); return d;
+    }));
+    $("result").hidden = false; setMsg($("askmsg"), "");
+  } catch (e) { setMsg($("askmsg"), e.message, "err"); }
+  busy($("ask"), false);
+}
+$("ask").onclick = ask;
+$("question").addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) ask(); });
+
+refresh();
+</script>
+</body>
+</html>

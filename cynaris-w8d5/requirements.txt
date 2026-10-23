@@ -1,0 +1,5 @@
+crewai>=0.100
+langgraph>=0.2
+langchain-ollama>=0.2
+mlflow>=2.15
+ragas>=0.2
