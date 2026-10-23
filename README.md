@@ -369,24 +369,33 @@ cynaris-aiml-internship/
 |   └── README_W8D3.md
 |   └── README_W8D3.md
 │
-└── cynaris-w8d4/                  # W8D4: Code review, test expansion and documentation for the Haystack search API
-    ├── app/
-    ├── docs/
-    ├── sample_docs/
+├── cynaris-w8d4/                  # W8D4: Code review, test expansion and documentation for the Haystack search API
+│   ├── app/
+│   ├── docs/
+│   ├── sample_docs/
+│   ├── tests/
+│   ├── .coverage
+│   ├── .dockerignore
+│   ├── .gitignore
+│   ├── CODE_REVIEW.md
+│   ├── Dockerfile
+│   ├── pytest.ini
+│   ├── railway.json
+│   ├── README_W8D4.md
+│   ├── requirements-dense.txt
+│   ├── requirements-dev.txt
+│   ├── requirements.txt
+│   └── ruff.toml
+│
+└── cynaris-w8d5/                  # W8D5: Local AI Research Assistant
+    ├── mlruns/
+    ├── src/
     ├── tests/
-    ├── .coverage
-    ├── .dockerignore
     ├── .gitignore
-    ├── CODE_REVIEW.md
-    ├── Dockerfile
-    ├── pytest.ini
-    ├── railway.json
-    ├── README_W8D4.md
-    ├── requirements-dense.txt
-    ├── requirements-dev.txt
-    ├── requirements.txt
-    └── ruff.toml       
-
+    ├── memory.json
+    ├── mlflow.db
+    ├── README_W8D5.md
+    └── requirements.txt
 
 ```
 
@@ -445,6 +454,7 @@ Container Registry.
 | 8    | D2  | RAG Evaluation with Ragas Framework | ✅ Complete (PR raised)  |
 | 8    | D3  | Deployment — Haystack Search API on Railway | 🟡 PR raised (Railway deploy pending: builds incident) |
 | 8    | D4  | Code review, test expansion and documentation for the Haystack search API | ✅ Complete (PR raised)  |
+| 8    | D5  | 2M Capstone: Local AI Research Assistant | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
