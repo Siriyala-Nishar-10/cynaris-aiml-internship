@@ -387,15 +387,28 @@ cynaris-aiml-internship/
 │   ├── requirements.txt
 │   └── ruff.toml
 │
-└── cynaris-w8d5/                  # W8D5: Local AI Research Assistant
-    ├── mlruns/
-    ├── src/
-    ├── tests/
-    ├── .gitignore
-    ├── memory.json
-    ├── mlflow.db
-    ├── README_W8D5.md
-    └── requirements.txt
+│
+├── cynaris-w8d5/                  # W8D5: Local AI Research Assistant
+│   ├── mlruns/
+│   ├── src/
+│   ├── tests/
+│   ├── .gitignore
+│   ├── memory.json
+│   ├── mlflow.db
+│   ├── README_W8D5.md
+│   └── requirements.txt
+│
+└── cynaris-w9d1/                  # W9D1: Multi-Agent Workflows with CrewAI
+     ├── docs/
+     ├── outputs/
+     ├── research_crew/
+     ├── tests/
+     ├── .gitignore
+     ├── pytest.ini
+     ├── README_W9D1.md
+     ├── requirements-dev.txt
+     ├── requirements.txt
+     └── ruff.toml
 
 ```
 
@@ -455,7 +468,7 @@ Container Registry.
 | 8    | D3  | Deployment — Haystack Search API on Railway | 🟡 PR raised (Railway deploy pending: builds incident) |
 | 8    | D4  | Code review, test expansion and documentation for the Haystack search API | ✅ Complete (PR raised)  |
 | 8    | D5  | 2M Capstone: Local AI Research Assistant | ✅ Complete (PR raised)  |
-
+| 9    | D1  | CrewAI multi-agent research crew with web search | ✅ Complete (PR raised)  |
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
