@@ -1,0 +1,8 @@
+{
+  "mode": "memory",
+  "build_s": 125.02,
+  "documents": 5,
+  "llm": "llama3.2",
+  "embed": "nomic-embed-text",
+  "top_k": 3
+}
