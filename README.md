@@ -398,17 +398,32 @@ cynaris-aiml-internship/
 │   ├── README_W8D5.md
 │   └── requirements.txt
 │
-└── cynaris-w9d1/                  # W9D1: Multi-Agent Workflows with CrewAI
-     ├── docs/
-     ├── outputs/
-     ├── research_crew/
-     ├── tests/
-     ├── .gitignore
-     ├── pytest.ini
-     ├── README_W9D1.md
-     ├── requirements-dev.txt
-     ├── requirements.txt
-     └── ruff.toml
+├── cynaris-w9d1/                  # W9D1: Multi-Agent Workflows with CrewAI
+│   ├── docs/
+│   ├── outputs/
+│   ├── research_crew/
+│   ├── tests/
+│   ├── .gitignore
+│   ├── pytest.ini
+│   ├── README_W9D1.md
+│   ├── requirements-dev.txt
+│   ├── requirements.txt
+│   └── ruff.toml
+│
+└── cynaris-w9d2/                  # W9D2: CrewAI Tools — Web Search & Comparison
+├── research_crew/
+│   ├── config.py
+│   ├── tools.py
+│   ├── crew.py
+│   ├── compare.py
+│   └── compare_runs.py
+├── tests/
+├── requirements.txt
+├── output_no_search.md
+├── output_with_search.md
+├── comparison_metrics.json
+├── comparison_report.md
+└── README_W9D2.md
 
 ```
 
@@ -469,6 +484,8 @@ Container Registry.
 | 8    | D4  | Code review, test expansion and documentation for the Haystack search API | ✅ Complete (PR raised)  |
 | 8    | D5  | 2M Capstone: Local AI Research Assistant | ✅ Complete (PR raised)  |
 | 9    | D1  | CrewAI multi-agent research crew with web search | ✅ Complete (PR raised)  |
+| 9    | D2  | Multi-Agent Research Crew with Web Search Integration | ✅ Complete (PR raised)  |
+
 
 ## Note on Repo Access
 This is a personal repository, set up and maintained on mentor guidance
