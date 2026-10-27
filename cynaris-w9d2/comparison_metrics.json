@@ -1,0 +1,24 @@
+{
+  "topic": "Retrieval-Augmented Generation (RAG) best practices for small local LLMs",
+  "model": "ollama/llama3.2:3b",
+  "without_search": {
+    "metrics": {
+      "word_count": 323,
+      "url_count": 0,
+      "unique_urls": 0,
+      "unique_domains": 0,
+      "has_sources_section": true,
+      "says_no_sources": false
+    }
+  },
+  "with_search": {
+    "metrics": {
+      "word_count": 430,
+      "url_count": 0,
+      "unique_urls": 0,
+      "unique_domains": 0,
+      "has_sources_section": true,
+      "says_no_sources": false
+    }
+  }
+}
