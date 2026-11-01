@@ -1,0 +1,3 @@
+haystack-ai
+fastapi
+uvicorn[standard]
