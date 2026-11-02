@@ -1,0 +1,14 @@
+Input 1: What is an API?
+Output: An API (Application Programming Interface) is a set of defined rules that enables different software systems to communicate with each other. It allows developers to build applications that can access and manipulate data from other systems, services, or platforms. Think of it as a messenger between systems, facilitating data exchange and interaction.
+
+Input 2: Explain Python lists.
+Output: Python lists are ordered collections of items that can be of any data type, including strings, integers, floats, and other lists. Lists are denoted by square brackets [] and are mutable, meaning they can be modified after creation. They support various operations such as indexing, slicing, and appending new elements.
+
+Input 3: What is retrieval augmented generation?
+Output: Retrieval Augmented Generation (RAG) is a type of artificial intelligence model that combines the strengths of retrieval-based models and generation models. It uses a retrieval component to retrieve relevant information from a knowledge base, and then generates new content based on the retrieved information. This approach aims to leverage the strengths of both retrieval and generation tasks.
+
+Input 4: Why do developers use Git branches?
+Output: Developers use Git branches to isolate changes, collaborate with others, and manage different stages of development. Branches allow developers to work on separate versions of a project without affecting the main codebase, making it easier to track changes and merge them later. This enables more efficient and organized development workflows.
+
+Input 5: What is an AI agent?
+Output: An AI agent is a software program that can perceive its environment, take actions, and learn from its experiences to achieve a specific goal. It is a self-contained entity that operates autonomously, making decisions based on its programming, data, and algorithms. AI agents can be found in various applications, including robotics, game playing, and customer service.
