@@ -410,20 +410,82 @@ cynaris-aiml-internship/
 │   ├── requirements.txt
 │   └── ruff.toml
 │
-└── cynaris-w9d2/                  # W9D2: CrewAI Tools — Web Search & Comparison
-├── research_crew/
-│   ├── config.py
-│   ├── tools.py
-│   ├── crew.py
-│   ├── compare.py
-│   └── compare_runs.py
-├── tests/
-├── requirements.txt
-├── output_no_search.md
-├── output_with_search.md
-├── comparison_metrics.json
-├── comparison_report.md
-└── README_W9D2.md
+├── cynaris-w9d2/                  # W9D2: CrewAI Tools — Web Search & Comparison
+|   ├── research_crew/
+│   |   ├── config.py
+│   |   ├── tools.py
+│   |   ├── crew.py
+│   |   ├── compare.py
+│   |   └── compare_runs.py
+|   ├── tests/
+|   ├── requirements.txt
+|   ├── output_no_search.md
+|   ├── output_with_search.md
+|   ├── comparison_metrics.json
+|   ├── comparison_report.md
+|   └── README_W9D2.md
+|
+├── cynaris-w9d3/                 # W9D3: Building a Research Crew — Multi-Agent Pipeline
+|   ├── .venv/
+|   ├── research_crew/
+|   ├── runs/
+|   ├── tests/
+|   ├── pipeline_report.md
+|   ├── README_W9D3.md
+|   ├── requirements.txt
+|   └── run_pipeline.py
+|
+├── cynaris-w9d4/                 # W9D4 LangChain chain, memory, and two-tool agent
+|   ├── .venv/
+|   ├── results/
+|   ├── screenshots/
+|   ├── __pycache__/
+|   ├── .gitignore
+|   ├── agent.py
+|   ├── chain.py
+|   ├── main.py
+|   ├── memory.py
+|   ├── README_W9D4.md
+|   ├── requirements.txt
+|   └── tools.py
+|
+├── cynaris-w9d5/               # W9D5: Automated Research Report Agent
+|    ├── .pytest_cache/
+|    ├── .venv/
+|    ├── mlruns/
+|    ├── results/
+|    ├── src/
+|    ├── tests/
+|    ├── .env.example
+|    ├── .gitignore
+|    ├── main.py
+|    ├── mlflow.db
+|    ├── README._W9D5md
+|    └── requirements.txt
+|
+├── cynaris-w10d1/              # W10D1: LangGraph — Stateful Agent Graph with Routing and Human-in-the-Loop
+|    ├── .pytest_cache/
+|    ├── .venv/
+|    ├── screenshots/
+|    ├── tests/
+|    ├── triage_agent/
+|    ├── .gitignore
+|    ├── graph.mmd
+|    ├── README_W10D1.md
+|    └── requirements.txt
+|
+└──  cynaris-w10d2/            # W10D2: LangGraph State Machines & Conditional Edges
+     ├── .pytest_cache/
+     ├── .venv/
+     ├── results/
+     ├── screenshots/
+     ├── src/
+     ├── tests/
+     ├── .gitignore
+     ├── README_W10D2.md
+     ├── requirements.txt
+     └── run_demo.py
+
 
 ```
 
@@ -485,6 +547,11 @@ Container Registry.
 | 8    | D5  | 2M Capstone: Local AI Research Assistant | ✅ Complete (PR raised)  |
 | 9    | D1  | CrewAI multi-agent research crew with web search | ✅ Complete (PR raised)  |
 | 9    | D2  | Multi-Agent Research Crew with Web Search Integration | ✅ Complete (PR raised)  |
+| 9    | D3  | Building a Research Crew — Multi-Agent Pipeline | ✅ Complete (PR raised)  |
+| 9    | D4  | LangChain chain, memory, and two-tool agent | ✅ Complete (PR raised)  |
+| 9    | D5  | Automated Research Report Agent  | ✅ Complete (PR raised)  |
+| 10   | D1  | LangGraph — Stateful Agent Graph with Routing and Human-in-the-Loop | ✅ Complete (PR raised)  |
+| 10   | D2  | LangGraph State Machines & Conditional Edges | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
