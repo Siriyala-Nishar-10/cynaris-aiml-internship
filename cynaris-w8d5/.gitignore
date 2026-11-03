@@ -1,0 +1,5 @@
+__pycache__/
+memory.json
+mlruns/
+.venv/
+mlflow.db
