@@ -474,17 +474,28 @@ cynaris-aiml-internship/
 |    ├── README_W10D1.md
 |    └── requirements.txt
 |
-└──  cynaris-w10d2/            # W10D2: LangGraph State Machines & Conditional Edges
-     ├── .pytest_cache/
-     ├── .venv/
-     ├── results/
-     ├── screenshots/
-     ├── src/
-     ├── tests/
-     ├── .gitignore
-     ├── README_W10D2.md
-     ├── requirements.txt
-     └── run_demo.py
+├── cynaris-w10d2/             # W10D2: LangGraph State Machines & Conditional Edges
+│   ├── .pytest_cache/
+│   ├── .venv/
+│   ├── results/
+│   ├── screenshots/
+│   ├── src/
+│   ├── tests/
+│   ├── .gitignore
+│   ├── README_W10D2.md
+│   ├── requirements.txt
+│   └── run_demo.py
+|
+└── cynaris-w10d3/             # W10D3: LangGraph + Memory — Persistent Conversations
+    ├── screenshots/
+    ├── src/
+    │   └── graph.py
+    ├── tests/
+    │   └── test_graph.py
+    ├── .gitignore
+    ├── README_W10D3.md
+    ├── requirements.txt
+    └── main.py
 
 
 ```
@@ -552,6 +563,7 @@ Container Registry.
 | 9    | D5  | Automated Research Report Agent  | ✅ Complete (PR raised)  |
 | 10   | D1  | LangGraph — Stateful Agent Graph with Routing and Human-in-the-Loop | ✅ Complete (PR raised)  |
 | 10   | D2  | LangGraph State Machines & Conditional Edges | ✅ Complete (PR raised)  |
+| 10   | D3  | LangGraph + Memory — Persistent Conversations | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
