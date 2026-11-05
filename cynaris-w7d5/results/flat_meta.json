@@ -1,0 +1,9 @@
+{
+  "mode": "flat",
+  "build_s": 111.13,
+  "errors": 0,
+  "documents": 5,
+  "llm": "llama3.2",
+  "embed": "nomic-embed-text",
+  "top_k": 3
+}
