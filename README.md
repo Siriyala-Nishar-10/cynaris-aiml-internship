@@ -486,14 +486,26 @@ cynaris-aiml-internship/
 │   ├── requirements.txt
 │   └── run_demo.py
 |
-└── cynaris-w10d3/             # W10D3: LangGraph + Memory — Persistent Conversations
+├── cynaris-w10d3/             # W10D3: LangGraph + Memory — Persistent Conversations
+│   ├── screenshots/
+│   ├── src/
+│   │   └── graph.py
+│   ├── tests/
+│   │   └── test_graph.py
+│   ├── .gitignore
+│   ├── README_W10D3.md
+│   ├── requirements.txt
+│   └── main.py
+│
+└── cynaris-w10d4/             # W10D4: Human-in-the-Loop with LangGraph
     ├── screenshots/
     ├── src/
     │   └── graph.py
     ├── tests/
     │   └── test_graph.py
     ├── .gitignore
-    ├── README_W10D3.md
+    ├── README_W10D4.md
+    ├── SELF_REVIEW.md
     ├── requirements.txt
     └── main.py
 
@@ -564,6 +576,7 @@ Container Registry.
 | 10   | D1  | LangGraph — Stateful Agent Graph with Routing and Human-in-the-Loop | ✅ Complete (PR raised)  |
 | 10   | D2  | LangGraph State Machines & Conditional Edges | ✅ Complete (PR raised)  |
 | 10   | D3  | LangGraph + Memory — Persistent Conversations | ✅ Complete (PR raised)  |
+| 10   | D4  |	Human-in-the-Loop with LangGraph | ✅ Complete (PR raised)  |
 
 
 ## Note on Repo Access
