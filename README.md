@@ -497,17 +497,32 @@ cynaris-aiml-internship/
 │   ├── requirements.txt
 │   └── main.py
 │
-└── cynaris-w10d4/             # W10D4: Human-in-the-Loop with LangGraph
-    ├── screenshots/
-    ├── src/
-    │   └── graph.py
-    ├── tests/
-    │   └── test_graph.py
-    ├── .gitignore
-    ├── README_W10D4.md
-    ├── SELF_REVIEW.md
-    ├── requirements.txt
-    └── main.py
+├── cynaris-w10d4/             # W10D4: Human-in-the-Loop with LangGraph
+|   ├── screenshots/
+|   ├── src/
+|   │   └── graph.py
+|   ├── tests/
+|   │   └── test_graph.py
+|   ├── .gitignore
+|   ├── README_W10D4.md
+|   ├── SELF_REVIEW.md
+|   ├── requirements.txt
+|   └── main.py
+|
+├── cynaris-w10d5/             # W10D5: Stateful Customer Support Agent
+│   ├── .pytest_cache/
+│   ├── .venv/
+│   ├── data/
+│   ├── results/
+│   │   └── evaluation_dataset.json
+│   ├── screenshots/
+│   ├── src/
+│   ├── tests/
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── main.py
+│   ├── README_W10D5.md
+    └── requirements.txt
 
 
 ```
@@ -577,6 +592,8 @@ Container Registry.
 | 10   | D2  | LangGraph State Machines & Conditional Edges | ✅ Complete (PR raised)  |
 | 10   | D3  | LangGraph + Memory — Persistent Conversations | ✅ Complete (PR raised)  |
 | 10   | D4  |	Human-in-the-Loop with LangGraph | ✅ Complete (PR raised)  |
+| 10   | D5  | Stateful Customer Support Agent | ✅ Complete (PR raised)  |
+
 
 
 ## Note on Repo Access
