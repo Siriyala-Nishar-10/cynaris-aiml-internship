@@ -522,7 +522,17 @@ cynaris-aiml-internship/
 │   ├── .gitignore
 │   ├── main.py
 │   ├── README_W10D5.md
-    └── requirements.txt
+|   └── requirements.txt
+|
+├── cynaris-w11d1/             # W11D1: MLflow Experiment Tracking — Setup & Logging   
+│   ├── results/
+│   │   ├── experiment_results.csv
+│   │   └── best_model.json
+│   ├── screenshots/
+│   ├── .gitignore
+│   ├── main.py
+│   ├── README_W11D1.md
+│   └── requirements.txt
 
 
 ```
@@ -593,6 +603,7 @@ Container Registry.
 | 10   | D3  | LangGraph + Memory — Persistent Conversations | ✅ Complete (PR raised)  |
 | 10   | D4  |	Human-in-the-Loop with LangGraph | ✅ Complete (PR raised)  |
 | 10   | D5  | Stateful Customer Support Agent | ✅ Complete (PR raised)  |
+| 11   | D1  | MLflow Experiment Tracking — Setup & Logging | ✅ Complete (PR raised) |
 
 
 
