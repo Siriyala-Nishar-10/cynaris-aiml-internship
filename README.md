@@ -533,6 +533,16 @@ cynaris-aiml-internship/
 │   ├── main.py
 │   ├── README_W11D1.md
 │   └── requirements.txt
+|
+├── cynaris-w11d2/             # W11D2: MLflow Model Registry & Versioning
+│   ├── results/
+│   │   ├── experiment_results.csv
+│   │   └── best_model_version.json
+│   ├── screenshots/
+│   ├── .gitignore
+│   ├── main.py
+│   ├── README_W11D2.md
+│   └── requirements.txt
 
 
 ```
@@ -604,6 +614,7 @@ Container Registry.
 | 10   | D4  |	Human-in-the-Loop with LangGraph | ✅ Complete (PR raised)  |
 | 10   | D5  | Stateful Customer Support Agent | ✅ Complete (PR raised)  |
 | 11   | D1  | MLflow Experiment Tracking — Setup & Logging | ✅ Complete (PR raised) |
+| 11   | D2  | 	MLflow Model Registry & Versioning | ✅ Complete (PR raised) |
 
 
 
