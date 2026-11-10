@@ -1,0 +1,7 @@
+[
+  {"question":"How do I reset my password?","answer":"Use the 'Forgot password' link on the sign-in page and follow the email instructions."},
+  {"question":"Where can I find invoices?","answer":"Open Account > Billing > Invoices to view available invoices."},
+  {"question":"How do I update billing details?","answer":"Open Account > Billing > Payment methods. Use the secure update flow; never send card details in chat."},
+  {"question":"How can I report an installation error?","answer":"Share the application version, operating system, and exact error message with support. Do not include passwords or private keys."},
+  {"question":"How do I request a refund?","answer":"Refund eligibility must be checked by the billing support team against the applicable purchase and refund policy."}
+]
