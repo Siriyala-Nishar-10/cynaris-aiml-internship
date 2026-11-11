@@ -1,0 +1,1 @@
+.venv/\n__pycache__/\n*.py[cod]\nmlflow.db\nmlruns/\n.pytest_cache/\n

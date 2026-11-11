@@ -1,0 +1,2 @@
+# Optional: enables mode=dense (large download: pulls in PyTorch). Not used on Railway by default.
+sentence-transformers-haystack

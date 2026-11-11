@@ -1,0 +1,51 @@
+{
+  "model": "llama3.2:3b",
+  "results": [
+    {
+      "input": {
+        "topic": "a vector database",
+        "audience": "a complete beginner"
+      },
+      "answer": "A vector database is a type of data storage system that uses mathematical concepts like vectors and vectors spaces to efficiently store and query large amounts of data, such as images, text, or audio, by representing them as numerical representations of their features. This allows for fast and efficient similarity searches, such as finding all similar images to a given one, making it a powerful tool for applications like image recognition, natural language processing, and recommendation systems.",
+      "seconds": 7.28
+    },
+    {
+      "input": {
+        "topic": "cosine similarity",
+        "audience": "a high-school student"
+      },
+      "answer": "Here's an explanation of cosine similarity in two sentences:\n\nCosine similarity is a way to measure how similar two vectors (or directions) are in a multi-dimensional space, like a map with many coordinates. It's calculated by taking the dot product of the two vectors and dividing it by the product of their lengths, giving you a value between 0 and 1 that shows how closely aligned the vectors are.",
+      "seconds": 7.22
+    },
+    {
+      "input": {
+        "topic": "retrieval-augmented generation",
+        "audience": "a product manager"
+      },
+      "answer": "Retrieval-Augmented Generation (RAG) is a technique that leverages large-scale knowledge bases and retrieval algorithms to generate high-quality content by first retrieving relevant information from the knowledge base and then using it to inform the generation of new content. By combining the strengths of retrieval and generation, RAG can produce more accurate, informative, and engaging content than traditional generation methods alone, while also reducing the need for extensive manual curation and editing.",
+      "seconds": 8.03
+    },
+    {
+      "input": {
+        "topic": "quantisation of language models",
+        "audience": "a software engineer"
+      },
+      "answer": "As a software engineer, you're likely familiar with the concept of quantization, where a model's weights are reduced to a lower precision data type, such as integers, to reduce memory usage and computational requirements. In the context of language models, quantization refers to the process of reducing the precision of the model's weights and activations from floating-point numbers to integers, typically 8-bit or 16-bit integers, to achieve significant computational and memory savings while maintaining acceptable performance.",
+      "seconds": 8.71
+    },
+    {
+      "input": {
+        "topic": "semantic caching",
+        "audience": "a finance analyst"
+      },
+      "answer": "As a finance analyst, you're likely familiar with the concept of data refresh rates and the importance of minimizing the time it takes to retrieve and update data. Semantic caching is a technique that uses machine learning algorithms to predict which data is most likely to be requested again, allowing you to cache the most frequently accessed data and reduce the number of requests to the underlying data source.",
+      "seconds": 6.76
+    }
+  ],
+  "list_parser_demo": [
+    "query",
+    "indexing",
+    "similarity search",
+    "faceting"
+  ]
+}
