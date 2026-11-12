@@ -1,0 +1,1 @@
+Run python generate_qa.py and python compare.py to create evaluation outputs. Do not fabricate scores.\n
