@@ -554,6 +554,19 @@ cynaris-aiml-internship/
 │   ├── main.py
 │   ├── README_W11D3.md
 │   └── requirements.txt
+|
+├── cynaris-w11d4/                 # W11D4: RAG Evaluation with Ragas & MLflow Integration
+│   ├── data/
+│   ├── results/
+│   ├── tests/
+│   ├── .gitignore
+│   ├── compare.py
+│   ├── evaluate_ragas.py
+│   ├── generate_qa.py
+│   ├── qa_pairs.json
+│   ├── rag_pipeline.py
+│   ├── README_W11D4.md
+│   └── requirements.txt
 
 
 ```
@@ -627,6 +640,8 @@ Container Registry.
 | 11   | D1  | MLflow Experiment Tracking — Setup & Logging | ✅ Complete (PR raised) |
 | 11   | D2  | 	MLflow Model Registry & Versioning | ✅ Complete (PR raised) |
 | 11   | D3  | MLflow Model Serving & REST API | ✅ Complete (PR raised) |
+| 11   | D4  | RAG Evaluation with Ragas & MLflow Integration | ✅ Complete (PR raised) |
+
 
 
 ## Note on Repo Access
