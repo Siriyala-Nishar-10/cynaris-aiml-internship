@@ -1,0 +1,52 @@
+[
+  {
+    "id": "doc01",
+    "topic": "password reset",
+    "content": "To reset a password, open the sign-in page, select Forgot password, enter the registered email, and follow the verification link. The link expires after 30 minutes."
+  },
+  {
+    "id": "doc02",
+    "topic": "account security",
+    "content": "Use a unique password and enable two-factor authentication. Never share passwords or one-time verification codes. Review active sessions after a suspected security issue."
+  },
+  {
+    "id": "doc03",
+    "topic": "invoice download",
+    "content": "Sign in, open Billing, choose Payment history, select a transaction, and click Download invoice. Invoices are available as PDF files."
+  },
+  {
+    "id": "doc04",
+    "topic": "payment methods",
+    "content": "Credit and debit cards are supported. Add or update a payment method under Settings, Billing, and Payment methods."
+  },
+  {
+    "id": "doc05",
+    "topic": "subscription cancellation",
+    "content": "To cancel, open Settings, select Plan, choose Manage subscription, and select Cancel plan. Access remains until the end of the paid billing period."
+  },
+  {
+    "id": "doc06",
+    "topic": "refund requests",
+    "content": "Submit a refund request from Help Center, Billing, and Request a refund. Include the invoice number and explanation. Eligibility depends on purchase terms and review."
+  },
+  {
+    "id": "doc07",
+    "topic": "two-factor authentication",
+    "content": "Enable two-factor authentication from Settings, Security, and Two-factor authentication. Use an authenticator app and store recovery codes securely."
+  },
+  {
+    "id": "doc08",
+    "topic": "technical support",
+    "content": "Collect the exact error message, time, browser version, and reproduction steps. Contact support through Help Center. Do not share passwords or private tokens."
+  },
+  {
+    "id": "doc09",
+    "topic": "profile email update",
+    "content": "Open Settings, Profile, and Edit email. Verify the new address using the confirmation message. The old address remains active until verification succeeds."
+  },
+  {
+    "id": "doc10",
+    "topic": "data export",
+    "content": "Open Settings, Privacy, and Request data export. A download link is sent to the verified account email when ready."
+  }
+]
