@@ -567,6 +567,22 @@ cynaris-aiml-internship/
 │   ├── rag_pipeline.py
 │   ├── README_W11D4.md
 │   └── requirements.txt
+|
+│
+├── cynaris-w11d5/             # W11D5: Tracked & Evaluated RAG Pipeline
+│   ├── data/
+│   ├── results/
+│   ├── src/
+│   │   ├── rag_pipeline.py
+│   │   ├── evaluate_ragas.py
+│   │   ├── crew_review.py
+│   │   └── workflow.py
+│   ├── tests/
+│   ├── .gitignore
+│   ├── main.py
+│   ├── mlflow.db
+│   ├── README_W11D5.md
+│   └── requirements.txt
 
 
 ```
@@ -641,6 +657,7 @@ Container Registry.
 | 11   | D2  | 	MLflow Model Registry & Versioning | ✅ Complete (PR raised) |
 | 11   | D3  | MLflow Model Serving & REST API | ✅ Complete (PR raised) |
 | 11   | D4  | RAG Evaluation with Ragas & MLflow Integration | ✅ Complete (PR raised) |
+| 11   | D5  | Week 11 Project: Tracked & Evaluated RAG Pipeline | ✅ Complete (PR raised) |
 
 
 
