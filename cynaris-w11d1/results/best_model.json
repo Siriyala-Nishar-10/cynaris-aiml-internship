@@ -1,0 +1,8 @@
+{
+  "experiment_name": "W11D1-Sklearn-Experiments",
+  "registered_model_name": "W11D1-Best-Classifier",
+  "registered_model_version": 1,
+  "best_run_id": "ea34cfce509044c18ae5e4805281253e",
+  "best_f1_score": 0.8979591836734694,
+  "runs_completed": 5
+}

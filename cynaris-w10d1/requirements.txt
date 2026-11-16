@@ -1,0 +1,3 @@
+langgraph>=1.0,<2      # developed and tested on 1.2.19
+requests>=2.31         # only used by the optional --llm Ollama classifier
+pytest>=8.0            # tests

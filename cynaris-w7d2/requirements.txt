@@ -1,0 +1,5 @@
+haystack-ai
+pypdf
+sentence-transformers
+sentence-transformers-haystack
+transformers-haystack

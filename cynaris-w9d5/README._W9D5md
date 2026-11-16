@@ -1,0 +1,60 @@
+# W9D5 — Automated Research Report Agent
+
+Starter implementation for the Week 9 project using the approved AI/ML stack.
+
+## Architecture
+
+1. **CrewAI** — a Research Analyst gathers structured notes; a Technical Report Writer drafts a Markdown report.
+2. **LangGraph** — orchestrates the `research -> save_report` workflow.
+3. **MLflow** — records the topic, workflow metadata, report-length metric, and report artifact.
+4. **Ragas** — includes an evaluation-dataset preparation helper and an explicit integration point for version-specific metrics.
+5. **MLOps basics** — separates modules, uses environment configuration, keeps generated artifacts out of Git, and includes tests.
+
+## Important scope note
+
+This is a learning starter, not a production research crawler. The agents are instructed not to invent citations. No live web-search tool is configured, so independently verify claims and sources before submitting a report. Ragas evaluation is not fully wired because its APIs and provider integrations vary by version; complete `src/evaluation.py` after selecting and testing a compatible Ragas setup.
+
+## Setup
+
+Recommended: Python 3.10 or 3.11 in a virtual environment.
+
+### Windows PowerShell
+
+```powershell
+py -3.11 -m venv .venv
+.\\.venv\\Scripts\\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+Copy-Item .env.example .env
+```
+
+Install and start Ollama separately, then pull the model:
+
+```powershell
+ollama pull llama3.2
+```
+
+If CrewAI's Ollama integration requires a different local configuration in your environment, consult the installed CrewAI provider documentation and update `CREWAI_MODEL`.
+
+## Run
+
+```powershell
+python main.py
+```
+
+Enter a research topic when prompted. The Markdown report is saved under `results/`, and MLflow records a run.
+
+Open the MLflow UI in another terminal:
+
+```powershell
+mlflow ui
+```
+
+Then open the local address printed by MLflow (commonly `http://127.0.0.1:5000`).
+
+## Tests
+
+```powershell
+pytest -q
+```
+

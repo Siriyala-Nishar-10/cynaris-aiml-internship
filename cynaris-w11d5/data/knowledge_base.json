@@ -1,0 +1,7 @@
+[
+  {"id":"faq1","topic":"Password reset","content":"To reset a password, open the sign-in page, choose Forgot password, enter the registered email address, and follow the verification link. Never share your password or verification code."},
+  {"id":"faq2","topic":"Account security","content":"Use a unique password and enable multi-factor authentication when available. Do not share passwords, one-time codes, or recovery links with anyone."},
+  {"id":"faq3","topic":"Billing invoice","content":"Invoices are available in the Billing section of the account dashboard. Select the relevant transaction and choose Download invoice. Contact support if an invoice is missing."},
+  {"id":"faq4","topic":"Refund request","content":"Submit refund requests through the Billing or Help section. Include the transaction reference, but do not include full payment-card details."},
+  {"id":"faq5","topic":"Locked account","content":"If an account is locked, use the account recovery flow or contact the official support team. Support should verify account ownership without asking for your password."}
+]
