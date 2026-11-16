@@ -583,6 +583,23 @@ cynaris-aiml-internship/
 │   ├── mlflow.db
 │   ├── README_W11D5.md
 │   └── requirements.txt
+|
+│
+├── cynaris-w12d1/             # W12D1: MLOps Overview — CI/CD for ML Systems
+│   ├── app/
+│   │   ├── main.py
+│   │   └── model.py
+│   ├── tests/
+│   │   └── test_api.py
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── ci-cd.yml
+│   ├── Dockerfile
+│   ├── .dockerignore
+│   ├── MONITORING.md
+│   ├── README_W12D1.md
+│   └── requirements.txt
+│ 
 
 
 ```
@@ -658,7 +675,7 @@ Container Registry.
 | 11   | D3  | MLflow Model Serving & REST API | ✅ Complete (PR raised) |
 | 11   | D4  | RAG Evaluation with Ragas & MLflow Integration | ✅ Complete (PR raised) |
 | 11   | D5  | Week 11 Project: Tracked & Evaluated RAG Pipeline | ✅ Complete (PR raised) |
-
+| 12   | D1  | MLOps Overview — CI/CD for ML Systems | ✅ Complete (PR raised) |
 
 
 ## Note on Repo Access
