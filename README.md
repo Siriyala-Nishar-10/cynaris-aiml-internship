@@ -585,21 +585,30 @@ cynaris-aiml-internship/
 │   └── requirements.txt
 |
 │
-├── cynaris-w12d1/             # W12D1: MLOps Overview — CI/CD for ML Systems
-│   ├── app/
-│   │   ├── main.py
-│   │   └── model.py
-│   ├── tests/
-│   │   └── test_api.py
+├── cynaris-w12d1/                 # W12D1: MLOps Overview — CI/CD for ML Systems
 │   ├── .github/
 │   │   └── workflows/
 │   │       └── ci-cd.yml
+│   ├── app/
+│   ├── tests/
 │   ├── Dockerfile
 │   ├── .dockerignore
 │   ├── MONITORING.md
 │   ├── README_W12D1.md
 │   └── requirements.txt
-│ 
+│
+├── cynaris-w12d2/                 # W12D2: Containerising ML Apps — Docker for AI
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── ci-cd.yml
+│   ├── app/
+│   ├── tests/
+│   ├── Dockerfile
+│   ├── .dockerignore
+│   ├── MONITORING.md
+│   ├── README_W12D2.md
+│   ├── requirements.txt
+│   └── requirements-dev.txt
 
 
 ```
@@ -676,6 +685,8 @@ Container Registry.
 | 11   | D4  | RAG Evaluation with Ragas & MLflow Integration | ✅ Complete (PR raised) |
 | 11   | D5  | Week 11 Project: Tracked & Evaluated RAG Pipeline | ✅ Complete (PR raised) |
 | 12   | D1  | MLOps Overview — CI/CD for ML Systems | ✅ Complete (PR raised) |
+| 12   | D2  | Containerising ML Apps — Docker for AI | ✅ Complete (PR raised) |
+
 
 
 ## Note on Repo Access
