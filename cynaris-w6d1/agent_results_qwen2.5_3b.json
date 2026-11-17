@@ -1,0 +1,114 @@
+{
+  "model": "qwen2.5:3b",
+  "results": [
+    {
+      "task": "What is the capital of France?",
+      "steps": [
+        {
+          "type": "Action",
+          "text": "web_search({'query': 'capital of France'})"
+        },
+        {
+          "type": "Observation",
+          "text": "Paris is the capital and largest city of France."
+        },
+        {
+          "type": "Final answer",
+          "text": "The capital of France is Paris."
+        }
+      ],
+      "final": "The capital of France is Paris.",
+      "tools_used": [
+        "web_search"
+      ],
+      "expected": "paris",
+      "tools_needed": [
+        "web_search"
+      ],
+      "text_ok": true,
+      "tools_ok": true,
+      "passed": true,
+      "seconds": 3.9,
+      "error": null
+    },
+    {
+      "task": "What is 1234 * 5678 + 91?",
+      "steps": [
+        {
+          "type": "Action",
+          "text": "calculator({'expression': '1234 * 5678 + 91'})"
+        },
+        {
+          "type": "Observation",
+          "text": "7006743"
+        },
+        {
+          "type": "Final answer",
+          "text": "1234 * 5678 + 91 equals 7006743."
+        }
+      ],
+      "final": "1234 * 5678 + 91 equals 7006743.",
+      "tools_used": [
+        "calculator"
+      ],
+      "expected": "7006743",
+      "tools_needed": [
+        "calculator"
+      ],
+      "text_ok": true,
+      "tools_ok": true,
+      "passed": true,
+      "seconds": 6.6,
+      "error": null
+    },
+    {
+      "task": "How tall is Mount Everest in metres, and what is that in feet (multiply metres by 3.28084)?",
+      "steps": [
+        {
+          "type": "Action",
+          "text": "web_search({'query': 'height of Mount Everest in metres'})"
+        },
+        {
+          "type": "Action",
+          "text": "calculator({'expression': '3.28084'})"
+        },
+        {
+          "type": "Observation",
+          "text": "Mount Everest is 8,849 metres tall (2020 survey)."
+        },
+        {
+          "type": "Observation",
+          "text": "3.28084"
+        },
+        {
+          "type": "Action",
+          "text": "calculator({'expression': '8849 * 3.28084'})"
+        },
+        {
+          "type": "Observation",
+          "text": "29032.15316"
+        },
+        {
+          "type": "Final answer",
+          "text": "Mount Everest is 8,849 metres tall, which is approximately 29,032.15 feet."
+        }
+      ],
+      "final": "Mount Everest is 8,849 metres tall, which is approximately 29,032.15 feet.",
+      "tools_used": [
+        "web_search",
+        "calculator",
+        "calculator"
+      ],
+      "expected": "29032",
+      "tools_needed": [
+        "calculator",
+        "web_search"
+      ],
+      "text_ok": true,
+      "tools_ok": true,
+      "passed": true,
+      "seconds": 13.7,
+      "error": null
+    }
+  ]
+}
