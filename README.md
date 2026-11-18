@@ -609,6 +609,20 @@ cynaris-aiml-internship/
 │   ├── README_W12D2.md
 │   ├── requirements.txt
 │   └── requirements-dev.txt
+|
+├── cynaris-w12d3/                 # W12D3: Monitoring ML Models in Production
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── ci-cd.yml
+│   ├── app/
+│   │   └── main.py
+│   ├── tests/
+│   ├── Dockerfile
+│   ├── .dockerignore
+│   ├── MONITORING.md
+│   ├── README_W12D3.md
+│   ├── requirements.txt
+│   └── requirements-dev.txt
 
 
 ```
@@ -643,7 +657,7 @@ Container Registry.
 | 3    | D4  | SVM & KNN — When to Use What                  | ✅ Complete (PR raised)  |
 | 3    | D5  | Hyperparameter Tuning — GridSearch & RandomSearch | ✅ Complete (PR raised)  |
 | 4    | D1  | Model Evaluation — K-Fold/Stratified CV, Learning Curves | ✅ Complete (PR raised)  |
-|4     | D2  | Bias-Variance Tradeoff & Regularisation |✅ Complete (PR raised) |
+| 4    | D2  | Bias-Variance Tradeoff & Regularisation |✅ Complete (PR raised) |
 | 4    | D3  | Model Serialisation — joblib & pickle        | ✅ Complete (PR raised)  |
 | 4    | D4  | FastAPI Model Serving Endpoint                | ✅ Complete (PR raised)  |
 | 4    | D5  | 1M Capstone: Sentiment Classifier — Deploy & Document | ✅ Complete (PR raised)  |
@@ -686,6 +700,7 @@ Container Registry.
 | 11   | D5  | Week 11 Project: Tracked & Evaluated RAG Pipeline | ✅ Complete (PR raised) |
 | 12   | D1  | MLOps Overview — CI/CD for ML Systems | ✅ Complete (PR raised) |
 | 12   | D2  | Containerising ML Apps — Docker for AI | ✅ Complete (PR raised) |
+| 12   | D3  | Monitoring ML Models in Production | ✅ Complete (PR raised) |
 
 
 
