@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+mlruns/
+*.db
+results/*
+!results/.gitkeep
+screenshots/*
+!screenshots/.gitkeep

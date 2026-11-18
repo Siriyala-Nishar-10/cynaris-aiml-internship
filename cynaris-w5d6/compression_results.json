@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "rate": 0.4,
+    "avg_keep_ratio": 0.389,
+    "avg_full_recall": 0.89,
+    "avg_compressed_recall": 0.39
+  },
+  "results": [
+    {
+      "question": "What is the main topic of this document?",
+      "tokens_before": 2087,
+      "tokens_after": 809,
+      "kept_fraction": 0.388,
+      "full_answer": "The main topic of this document is streamlining the workload within Human Resources (HR) departments through the development of intelligent banking assistants enhanced by structured internal documentation. [sample.pdf p.2]",
+      "full_seconds": 126.7,
+      "full_recall": 0.67,
+      "compressed_answer": "The main topic of this document appears to be the development and improvement of a Reasoning About Genres (RAG) system for generating accurate and contextually relevant natural language responses in the context of Human Resources and banking. [file.pdf p.1]",
+      "compressed_seconds": 39.9,
+      "compressed_recall": 0.67
+    },
+    {
+      "question": "What are the two phases of the research?",
+      "tokens_before": 2035,
+      "tokens_after": 801,
+      "kept_fraction": 0.394,
+      "full_answer": "The research is executed in two main phases: \n\n1. An initial phase with structured Excel question-answer pairs, \n2. A more complex phase with unstructured PDF documents.",
+      "full_seconds": 99.0,
+      "full_recall": 1.0,
+      "compressed_answer": "I don't know based on the documents.",
+      "compressed_seconds": 32.3,
+      "compressed_recall": 0.0
+    },
+    {
+      "question": "What does the input data of the RAG system comprise?",
+      "tokens_before": 2125,
+      "tokens_after": 820,
+      "kept_fraction": 0.386,
+      "full_answer": "The input data of the RAG system comprises: \n\n• Employee-generated queries expressed in natural language, typically regarding organizational rules, HR policies, legal compliance, and internal procedural details.\n• Structured internal data, including detailed organizational guidelines, company-specific rules, processes, and normative regulations. [sample.pdf p.2]",
+      "full_seconds": 112.6,
+      "full_recall": 1.0,
+      "compressed_answer": "The input data of the RAG system comprises foundational dataset of 100 question-answer pairs in Excel, which is used for HR queries and internal information retrieval. [file.pdf p.2] [3315]",
+      "compressed_seconds": 42.4,
+      "compressed_recall": 0.5
+    }
+  ]
+}
