@@ -1,0 +1,8 @@
+{
+    "model_name": "W11D2-Versioned-Classifier",
+    "version": 2,
+    "alias": "champion",
+    "run_id": "53fda9cf2a4e4dec9a1ea611172230e3",
+    "best_f1_score": 0.9115646258503401,
+    "model_uri": "models:/W11D2-Versioned-Classifier@champion"
+}
