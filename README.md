@@ -623,7 +623,22 @@ cynaris-aiml-internship/
 │   ├── README_W12D3.md
 │   ├── requirements.txt
 │   └── requirements-dev.txt
-
+│
+├── cynaris-w12d4/                 # W12D4: End-to-End MLOps Pipeline Review
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── ci-cd.yml
+│   ├── app/
+│   │   ├── __init__.py
+│   │   └── main.py
+│   ├── tests/
+│   │   └── test_api.py
+│   ├── Dockerfile
+│   ├── .dockerignore
+│   ├── MONITORING.md
+│   ├── README_W12D4.md
+│   ├── requirements.txt
+│   └── requirements-dev.txt
 
 ```
 
@@ -701,6 +716,9 @@ Container Registry.
 | 12   | D1  | MLOps Overview — CI/CD for ML Systems | ✅ Complete (PR raised) |
 | 12   | D2  | Containerising ML Apps — Docker for AI | ✅ Complete (PR raised) |
 | 12   | D3  | Monitoring ML Models in Production | ✅ Complete (PR raised) |
+| 12   | D4  | End-to-End MLOps Pipeline Review | ✅ Complete (PR raised) |
+
+
 
 
 
