@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How do I reset my password?",
+    "ground_truth": "Open the sign-in page, select Forgot password, enter the registered email, and follow the verification link. It expires after 30 minutes."
+  },
+  {
+    "question": "How can I secure my account?",
+    "ground_truth": "Use a unique password, enable two-factor authentication, never share passwords or one-time codes, and review active sessions after a suspected issue."
+  },
+  {
+    "question": "Where can I download an invoice?",
+    "ground_truth": "Open Billing, choose Payment history, select the transaction, and click Download invoice. It is provided as a PDF."
+  },
+  {
+    "question": "Which payment methods are supported?",
+    "ground_truth": "Credit and debit cards are supported. Manage them under Settings, Billing, and Payment methods."
+  },
+  {
+    "question": "How do I cancel my subscription?",
+    "ground_truth": "Go to Settings, Plan, Manage subscription, and select Cancel plan. Access continues through the end of the paid billing period."
+  },
+  {
+    "question": "How can I request a refund?",
+    "ground_truth": "Use Help Center, Billing, and Request a refund. Provide the invoice number and explanation. Eligibility depends on purchase terms and review."
+  },
+  {
+    "question": "How do I enable two-factor authentication?",
+    "ground_truth": "Go to Settings, Security, and Two-factor authentication. Use an authenticator app and store recovery codes securely."
+  },
+  {
+    "question": "What should I collect before contacting technical support?",
+    "ground_truth": "Collect the exact error message, time, browser version, and reproduction steps. Contact support through Help Center without sharing passwords or private tokens."
+  },
+  {
+    "question": "How do I change my profile email?",
+    "ground_truth": "Open Settings, Profile, and Edit email. Verify the new address using the confirmation message."
+  },
+  {
+    "question": "How do I get a copy of my account data?",
+    "ground_truth": "Open Settings, Privacy, and Request data export. A download link is sent to the verified account email when ready."
+  }
+]

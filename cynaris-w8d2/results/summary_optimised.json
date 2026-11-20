@@ -1,0 +1,24 @@
+{
+  "means": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.817,
+    "context_precision": 1.0,
+    "context_recall": 0.462
+  },
+  "valid_counts": {
+    "faithfulness": 9,
+    "answer_relevancy": 3,
+    "context_precision": 1,
+    "context_recall": 7
+  },
+  "n_questions": 10,
+  "label": "optimised",
+  "chunk_size": 1000,
+  "k": 5,
+  "chunks": 209,
+  "llm": "llama3.2",
+  "judge": "llama3.2",
+  "embed": "nomic-embed-text",
+  "rag_answer_seconds": 167.2,
+  "lowest_metric": "context_recall"
+}

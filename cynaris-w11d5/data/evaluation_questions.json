@@ -1,0 +1,7 @@
+[
+  {"question":"How do I reset my password?","ground_truth":"Open the sign-in page, choose Forgot password, enter the registered email address, and follow the verification link."},
+  {"question":"What should I do to improve account security?","ground_truth":"Use a unique password and enable multi-factor authentication when available. Never share passwords or one-time codes."},
+  {"question":"Where can I download an invoice?","ground_truth":"Open the Billing section of the account dashboard, select the transaction, and choose Download invoice."},
+  {"question":"How can I request a refund?","ground_truth":"Submit a request through the Billing or Help section and include the transaction reference without full payment-card details."},
+  {"question":"What if my account is locked?","ground_truth":"Use the account recovery flow or contact official support. Do not share your password."}
+]
