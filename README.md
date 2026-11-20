@@ -639,6 +639,24 @@ cynaris-aiml-internship/
 │   ├── README_W12D4.md
 │   ├── requirements.txt
 │   └── requirements-dev.txt
+│
+└── cynaris-w12d5/                 # W12D5: 3M Capstone — Production AI System — Full Pipeline
+    ├── .github/
+    │   └── workflows/
+    │       └── ci-cd.yml
+    ├── app/
+    │   ├── __init__.py
+    │   └── main.py
+    ├── tests/
+    │   └── test_api.py
+    ├── train.py
+    ├── Dockerfile
+    ├── .dockerignore
+    ├── .gitignore
+    ├── MONITORING.md
+    ├── README_W12D5.md
+    ├── requirements.txt
+    └── requirements-dev.txt
 
 ```
 
@@ -706,10 +724,10 @@ Container Registry.
 | 10   | D1  | LangGraph — Stateful Agent Graph with Routing and Human-in-the-Loop | ✅ Complete (PR raised)  |
 | 10   | D2  | LangGraph State Machines & Conditional Edges | ✅ Complete (PR raised)  |
 | 10   | D3  | LangGraph + Memory — Persistent Conversations | ✅ Complete (PR raised)  |
-| 10   | D4  |	Human-in-the-Loop with LangGraph | ✅ Complete (PR raised)  |
+| 10   | D4  | Human-in-the-Loop with LangGraph | ✅ Complete (PR raised)  |
 | 10   | D5  | Stateful Customer Support Agent | ✅ Complete (PR raised)  |
 | 11   | D1  | MLflow Experiment Tracking — Setup & Logging | ✅ Complete (PR raised) |
-| 11   | D2  | 	MLflow Model Registry & Versioning | ✅ Complete (PR raised) |
+| 11   | D2  | MLflow Model Registry & Versioning | ✅ Complete (PR raised) |
 | 11   | D3  | MLflow Model Serving & REST API | ✅ Complete (PR raised) |
 | 11   | D4  | RAG Evaluation with Ragas & MLflow Integration | ✅ Complete (PR raised) |
 | 11   | D5  | Week 11 Project: Tracked & Evaluated RAG Pipeline | ✅ Complete (PR raised) |
@@ -717,7 +735,7 @@ Container Registry.
 | 12   | D2  | Containerising ML Apps — Docker for AI | ✅ Complete (PR raised) |
 | 12   | D3  | Monitoring ML Models in Production | ✅ Complete (PR raised) |
 | 12   | D4  | End-to-End MLOps Pipeline Review | ✅ Complete (PR raised) |
-
+| 12   | D5  | 3M Capstone — Production AI System — Full Pipeline | ✅ Complete (PR raised) |
 
 
 
